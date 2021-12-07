@@ -3,110 +3,61 @@
  * https://github.com/facebook/react-native
  *
  * @format
- * @flow strict-local
+ * @flow
  */
 
-import React from 'react';
-import type {Node} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-const Section = ({children, title}): Node => {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
-};
-
-const App: () => Node = () => {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+import React, {useEffect, useState} from 'react';
+import {Provider} from 'react-redux';
+import store from './src/stores';
+import AppContainer from "./src/router";
+import {Provider as AntdProvider} from '@ant-design/react-native';
+import Loading from './src/global/Loading'
+import ErrorTip from './src/global/ErrorModal'
+import AsyncStorage from '@react-native-community/async-storage';
+import _ from 'lodash';
+import SplashScreen from "react-native-splash-screen";
+import * as WeChat from "react-native-wechat";
+const App=() => {
+  const [isAuth,setIsAuth]=useState(false)
+  const getAuthInfo = async () => {
+    try {
+      //await AsyncStorage.removeItem('BS_HA__USER_INFO')
+      const storage = await AsyncStorage.getItem('BS_HA__USER_INFO');
+      if (_.isEmpty(storage)) {
+        setIsAuth(false)
+      } else {
+        const {token, uid} = JSON.parse(storage);
+        setIsAuth(!!token)
+      }
+      SplashScreen.hide();
+    } catch (e) {
+      console.log(e);
+    }
   };
+  useState(()=>{
+    (async ()=>await getAuthInfo())()
+  })
 
+  useEffect(() => {
+    (async () => await registerApp())();
+  });
+  const registerApp = async () => {
+    try {
+      await WeChat.registerApp('wx91e2d653a0c5bfbf');//从微信开放平台申请
+    } catch (e) {
+      console.error(e);
+    }
+  };
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.js</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <Provider store={store}>
+      <AntdProvider>
+        <AppContainer auth={isAuth}/>
+
+        <Loading />
+        <ErrorTip />
+      </AntdProvider>
+    </Provider>
   );
 };
-
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
 
 export default App;
