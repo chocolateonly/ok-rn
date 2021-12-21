@@ -1,4 +1,0 @@
-export default {
-  GET_USER_INFO:'GET_USER_INFO',
-  CLEAR_LOGIN_DATA:'CLEAR_LOGIN_DATA'
-}
