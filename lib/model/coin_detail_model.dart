@@ -100,7 +100,7 @@ class CoinDetailModel {
       sentiment_votes_up_percentage: json['sentiment_votes_up_percentage'],
       // status_updates: json['status_updates'] != null ? (json['status_updates'] as List).map((i) => Object.fromJson(i)).toList() : null,
       symbol: json['symbol'],
-      tickers: json['tickers'] != null ? (json['tickers'] as List).map((i) => Ticker.fromJson(i)).toList() : null,
+      tickers: json['tickers.json'] != null ? (json['tickers.json'] as List).map((i) => Ticker.fromJson(i)).toList() : null,
     );
   }
 
@@ -163,7 +163,7 @@ class CoinDetailModel {
     }
     */
     if (this.tickers != null) {
-      data['tickers'] = this.tickers!.map((v) => v.toJson()).toList();
+      data['tickers.json'] = this.tickers!.map((v) => v.toJson()).toList();
     }
     return data;
   }

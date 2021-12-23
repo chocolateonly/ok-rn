@@ -1,0 +1,3197 @@
+{
+  "name": "Binance",
+  "tickers": [
+    {
+      "base": "BUSD",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.9996,
+      "volume": 690392831.0281112,
+      "converted_last": {
+        "btc": 2.056e-05,
+        "eth": 0.00025041,
+        "usd": 1.0
+      },
+      "converted_volume": {
+        "btc": 14196,
+        "eth": 172882,
+        "usd": 692705169
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.010003,
+      "timestamp": "2021-12-23T02:39:22+00:00",
+      "last_traded_at": "2021-12-23T02:39:22+00:00",
+      "last_fetch_at": "2021-12-23T02:39:22+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/BUSD_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "binance-usd",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "BTC",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 48295.79,
+      "volume": 28116.70599118278,
+      "converted_last": {
+        "btc": 0.99330132,
+        "eth": 12.167685,
+        "usd": 48211
+      },
+      "converted_volume": {
+        "btc": 27928,
+        "eth": 342115,
+        "usd": 1355534638
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.010021,
+      "timestamp": "2021-12-23T03:23:56+00:00",
+      "last_traded_at": "2021-12-23T03:23:56+00:00",
+      "last_fetch_at": "2021-12-23T03:23:56+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/BTC_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "bitcoin",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "ETH",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 3948.82,
+      "volume": 322408.23180383886,
+      "converted_last": {
+        "btc": 0.08121553,
+        "eth": 0.99486932,
+        "usd": 3941.34
+      },
+      "converted_volume": {
+        "btc": 26185,
+        "eth": 320754,
+        "usd": 1270721529
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.010251,
+      "timestamp": "2021-12-23T03:22:58+00:00",
+      "last_traded_at": "2021-12-23T03:22:58+00:00",
+      "last_fetch_at": "2021-12-23T03:22:58+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ETH_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "ethereum",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "USDC",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 1.0,
+      "volume": 45832360.242913,
+      "converted_last": {
+        "btc": 2.057e-05,
+        "eth": 0.00025181,
+        "usd": 0.99761
+      },
+      "converted_volume": {
+        "btc": 942.642,
+        "eth": 11541,
+        "usd": 45722799
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.019999,
+      "timestamp": "2021-12-23T03:34:28+00:00",
+      "last_traded_at": "2021-12-23T03:34:28+00:00",
+      "last_fetch_at": "2021-12-23T03:34:28+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/USDC_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "usd-coin",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "USDC",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.9996,
+      "volume": 110954183.96998799,
+      "converted_last": {
+        "btc": 2.07e-05,
+        "eth": 0.00025383,
+        "usd": 1.0
+      },
+      "converted_volume": {
+        "btc": 2296,
+        "eth": 28163,
+        "usd": 111316739
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.010003,
+      "timestamp": "2021-12-23T03:27:21+00:00",
+      "last_traded_at": "2021-12-23T03:27:21+00:00",
+      "last_fetch_at": "2021-12-23T03:27:21+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/USDC_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "usd-coin",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "BTC",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 48621.18,
+      "volume": 8388.357660527809,
+      "converted_last": {
+        "btc": 1.000663,
+        "eth": 12.18814,
+        "usd": 48807
+      },
+      "converted_volume": {
+        "btc": 8394,
+        "eth": 102238,
+        "usd": 409414114
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.010021,
+      "timestamp": "2021-12-23T02:32:06+00:00",
+      "last_traded_at": "2021-12-23T02:32:06+00:00",
+      "last_fetch_at": "2021-12-23T02:32:06+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/BTC_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "bitcoin",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "ETH",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 3989.21,
+      "volume": 87566.75534591987,
+      "converted_last": {
+        "btc": 0.08204675,
+        "eth": 0.99937676,
+        "usd": 4004.87
+      },
+      "converted_volume": {
+        "btc": 7185,
+        "eth": 87512,
+        "usd": 350693704
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.010251,
+      "timestamp": "2021-12-23T02:36:37+00:00",
+      "last_traded_at": "2021-12-23T02:36:37+00:00",
+      "last_fetch_at": "2021-12-23T02:36:37+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ETH_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "ethereum",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "WBTC",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 1.0004,
+      "volume": 154.44262213114754,
+      "converted_last": {
+        "btc": 1.0004,
+        "eth": 12.245678,
+        "usd": 48539
+      },
+      "converted_volume": {
+        "btc": 154.504,
+        "eth": 1891,
+        "usd": 7496468
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.029991,
+      "timestamp": "2021-12-23T03:36:58+00:00",
+      "last_traded_at": "2021-12-23T03:36:58+00:00",
+      "last_fetch_at": "2021-12-23T03:36:58+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/WBTC_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "wrapped-bitcoin",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "LUNA",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 86.95,
+      "volume": 11218260.053549787,
+      "converted_last": {
+        "btc": 0.00180036,
+        "eth": 0.02207934,
+        "usd": 87.27
+      },
+      "converted_volume": {
+        "btc": 20197,
+        "eth": 247692,
+        "usd": 979006633
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.011275,
+      "timestamp": "2021-12-23T03:27:33+00:00",
+      "last_traded_at": "2021-12-23T03:27:33+00:00",
+      "last_fetch_at": "2021-12-23T03:27:33+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/LUNA_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "terra-luna",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "ETH",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.081985,
+      "volume": 47787.81685454657,
+      "converted_last": {
+        "btc": 0.081985,
+        "eth": 0.99927195,
+        "usd": 4000.31
+      },
+      "converted_volume": {
+        "btc": 3918,
+        "eth": 47753,
+        "usd": 191166301
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.011219,
+      "timestamp": "2021-12-23T02:43:23+00:00",
+      "last_traded_at": "2021-12-23T02:43:23+00:00",
+      "last_fetch_at": "2021-12-23T02:43:23+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ETH_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "ethereum",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "XRP",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.9838,
+      "volume": 421748640.5400488,
+      "converted_last": {
+        "btc": 2.037e-05,
+        "eth": 0.00024982,
+        "usd": 0.987622
+      },
+      "converted_volume": {
+        "btc": 8591,
+        "eth": 105360,
+        "usd": 416528069
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.010108,
+      "timestamp": "2021-12-23T03:26:05+00:00",
+      "last_traded_at": "2021-12-23T03:26:05+00:00",
+      "last_fetch_at": "2021-12-23T03:26:05+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/XRP_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "ripple",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "MATIC",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 2.689,
+      "volume": 222614821.32506955,
+      "converted_last": {
+        "btc": 5.568e-05,
+        "eth": 0.00068116,
+        "usd": 2.7
+      },
+      "converted_volume": {
+        "btc": 12395,
+        "eth": 151636,
+        "usd": 601577347
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.037313,
+      "timestamp": "2021-12-23T03:40:20+00:00",
+      "last_traded_at": "2021-12-23T03:40:20+00:00",
+      "last_fetch_at": "2021-12-23T03:40:20+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/MATIC_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "matic-network",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "SOL",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 179.6,
+      "volume": 1503769.8801848553,
+      "converted_last": {
+        "btc": 0.00369384,
+        "eth": 0.04524859,
+        "usd": 179.26
+      },
+      "converted_volume": {
+        "btc": 5555,
+        "eth": 68043,
+        "usd": 269565707
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.016858,
+      "timestamp": "2021-12-23T03:22:48+00:00",
+      "last_traded_at": "2021-12-23T03:22:48+00:00",
+      "last_fetch_at": "2021-12-23T03:22:48+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/SOL_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "solana",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "SHIB",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 3.504e-05,
+      "volume": 18188633018253.71,
+      "converted_last": {
+        "btc": 7.21e-10,
+        "eth": 8.784e-09,
+        "usd": 3.516e-05
+      },
+      "converted_volume": {
+        "btc": 13110,
+        "eth": 159767,
+        "usd": 639455620
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.027503,
+      "timestamp": "2021-12-23T02:28:36+00:00",
+      "last_traded_at": "2021-12-23T02:28:36+00:00",
+      "last_fetch_at": "2021-12-23T02:28:36+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/SHIB_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "shiba-inu",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "AVAX",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 121.36,
+      "volume": 2960569.72748764,
+      "converted_last": {
+        "btc": 0.00251285,
+        "eth": 0.0307655,
+        "usd": 121.86
+      },
+      "converted_volume": {
+        "btc": 7439,
+        "eth": 91083,
+        "usd": 360784437
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.018239,
+      "timestamp": "2021-12-23T03:31:54+00:00",
+      "last_traded_at": "2021-12-23T03:31:54+00:00",
+      "last_fetch_at": "2021-12-23T03:31:54+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/AVAX_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "avalanche-2",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "BETH",
+      "target": "ETH",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.923,
+      "volume": 826.6636553629469,
+      "converted_last": {
+        "btc": 0.0755014,
+        "eth": 0.92438457,
+        "usd": 3662.21
+      },
+      "converted_volume": {
+        "btc": 62.414,
+        "eth": 764.155,
+        "usd": 3027420
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.119125,
+      "timestamp": "2021-12-23T03:32:11+00:00",
+      "last_traded_at": "2021-12-23T03:32:11+00:00",
+      "last_fetch_at": "2021-12-23T03:32:11+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/BETH_ETH?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "binance-eth",
+      "target_coin_id": "ethereum"
+    },
+    {
+      "base": "BNB",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 533.8,
+      "volume": 207345.58627351068,
+      "converted_last": {
+        "btc": 0.01097875,
+        "eth": 0.13423026,
+        "usd": 532.98
+      },
+      "converted_volume": {
+        "btc": 2276,
+        "eth": 27832,
+        "usd": 110510690
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.018741,
+      "timestamp": "2021-12-23T03:42:03+00:00",
+      "last_traded_at": "2021-12-23T03:42:03+00:00",
+      "last_fetch_at": "2021-12-23T03:42:03+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/BNB_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "binancecoin",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "SAND",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 5.098,
+      "volume": 34319537.629639074,
+      "converted_last": {
+        "btc": 0.00010556,
+        "eth": 0.00129139,
+        "usd": 5.12
+      },
+      "converted_volume": {
+        "btc": 3623,
+        "eth": 44320,
+        "usd": 175827927
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.013719,
+      "timestamp": "2021-12-23T03:40:27+00:00",
+      "last_traded_at": "2021-12-23T03:40:27+00:00",
+      "last_fetch_at": "2021-12-23T03:40:27+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/SAND_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "the-sandbox",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "DOT",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 27.81,
+      "volume": 11491242.999435455,
+      "converted_last": {
+        "btc": 0.00057583,
+        "eth": 0.00706183,
+        "usd": 27.92
+      },
+      "converted_volume": {
+        "btc": 6617,
+        "eth": 81149,
+        "usd": 320812854
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.035702,
+      "timestamp": "2021-12-23T03:26:14+00:00",
+      "last_traded_at": "2021-12-23T03:26:14+00:00",
+      "last_fetch_at": "2021-12-23T03:26:14+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/DOT_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "polkadot",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "BNB",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.011028,
+      "volume": 84229.05966630395,
+      "converted_last": {
+        "btc": 0.011028,
+        "eth": 0.1343274,
+        "usd": 538.3
+      },
+      "converted_volume": {
+        "btc": 928.878,
+        "eth": 11314,
+        "usd": 45340470
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.019088,
+      "timestamp": "2021-12-23T02:36:26+00:00",
+      "last_traded_at": "2021-12-23T02:36:26+00:00",
+      "last_fetch_at": "2021-12-23T02:36:26+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/BNB_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "binancecoin",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "NEAR",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 12.935,
+      "volume": 30238625.27735601,
+      "converted_last": {
+        "btc": 0.00026783,
+        "eth": 0.00327661,
+        "usd": 13.0
+      },
+      "converted_volume": {
+        "btc": 8099,
+        "eth": 99080,
+        "usd": 393074682
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.062814,
+      "timestamp": "2021-12-23T03:40:42+00:00",
+      "last_traded_at": "2021-12-23T03:40:42+00:00",
+      "last_fetch_at": "2021-12-23T03:40:42+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/NEAR_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "near",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "LUNA",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 86.81,
+      "volume": 3319369.4336009677,
+      "converted_last": {
+        "btc": 0.00178544,
+        "eth": 0.021843,
+        "usd": 86.66
+      },
+      "converted_volume": {
+        "btc": 5927,
+        "eth": 72505,
+        "usd": 287644267
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.03438,
+      "timestamp": "2021-12-23T03:40:28+00:00",
+      "last_traded_at": "2021-12-23T03:40:28+00:00",
+      "last_fetch_at": "2021-12-23T03:40:28+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/LUNA_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "terra-luna",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "ADA",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 1.328,
+      "volume": 171954669.6685241,
+      "converted_last": {
+        "btc": 2.75e-05,
+        "eth": 0.00033687,
+        "usd": 1.33
+      },
+      "converted_volume": {
+        "btc": 4728,
+        "eth": 57927,
+        "usd": 229176451
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.074294,
+      "timestamp": "2021-12-23T03:29:23+00:00",
+      "last_traded_at": "2021-12-23T03:29:23+00:00",
+      "last_fetch_at": "2021-12-23T03:29:23+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ADA_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "cardano",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "DOGE",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.1742,
+      "volume": 917235062.3817451,
+      "converted_last": {
+        "btc": 3.61e-06,
+        "eth": 4.413e-05,
+        "usd": 0.175063
+      },
+      "converted_volume": {
+        "btc": 3308,
+        "eth": 40475,
+        "usd": 160574062
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.057405,
+      "timestamp": "2021-12-23T03:40:41+00:00",
+      "last_traded_at": "2021-12-23T03:40:41+00:00",
+      "last_fetch_at": "2021-12-23T03:40:41+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/DOGE_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "dogecoin",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "USDP",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.9999,
+      "volume": 292803.2793779378,
+      "converted_last": {
+        "btc": 2.057e-05,
+        "eth": 0.00025071,
+        "usd": 1.0
+      },
+      "converted_volume": {
+        "btc": 6.021532,
+        "eth": 73.408,
+        "usd": 293754
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.02,
+      "timestamp": "2021-12-23T02:20:17+00:00",
+      "last_traded_at": "2021-12-23T02:20:17+00:00",
+      "last_fetch_at": "2021-12-23T02:46:22+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/USDP_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "paxos-standard",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "USDT",
+      "target": "BRL",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 5.7,
+      "volume": 25113229.958754387,
+      "converted_last": {
+        "btc": 2.066e-05,
+        "eth": 0.00025189,
+        "usd": 1.01
+      },
+      "converted_volume": {
+        "btc": 518.901,
+        "eth": 6326,
+        "usd": 25315308
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.035088,
+      "timestamp": "2021-12-23T02:45:21+00:00",
+      "last_traded_at": "2021-12-23T02:45:21+00:00",
+      "last_fetch_at": "2021-12-23T02:45:21+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/USDT_BRL?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "tether"
+    },
+    {
+      "base": "LINK",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 20.42,
+      "volume": 5373606.022987267,
+      "converted_last": {
+        "btc": 0.00041998,
+        "eth": 0.0051199,
+        "usd": 20.49
+      },
+      "converted_volume": {
+        "btc": 2257,
+        "eth": 27512,
+        "usd": 110101109
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.0489,
+      "timestamp": "2021-12-23T02:45:19+00:00",
+      "last_traded_at": "2021-12-23T02:45:19+00:00",
+      "last_fetch_at": "2021-12-23T02:45:19+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/LINK_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "chainlink",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "USDP",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.9997,
+      "volume": 1552481.297110133,
+      "converted_last": {
+        "btc": 2.07e-05,
+        "eth": 0.00025324,
+        "usd": 1.0
+      },
+      "converted_volume": {
+        "btc": 32.135628,
+        "eth": 393.147,
+        "usd": 1559706
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.010004,
+      "timestamp": "2021-12-23T03:29:29+00:00",
+      "last_traded_at": "2021-12-23T03:29:29+00:00",
+      "last_fetch_at": "2021-12-23T03:40:24+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/USDP_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "paxos-standard",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "USDT",
+      "target": "TRY",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 12.815,
+      "volume": 179120425.88833398,
+      "converted_last": {
+        "btc": 2.182e-05,
+        "eth": 0.00026617,
+        "usd": 1.06
+      },
+      "converted_volume": {
+        "btc": 3908,
+        "eth": 47677,
+        "usd": 190396931
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.017814,
+      "timestamp": "2021-12-23T02:16:17+00:00",
+      "last_traded_at": "2021-12-23T02:16:17+00:00",
+      "last_fetch_at": "2021-12-23T02:16:17+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/USDT_TRY?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "tether"
+    },
+    {
+      "base": "LUNA",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.0017937,
+      "volume": 2013915.2986006578,
+      "converted_last": {
+        "btc": 0.0017937,
+        "eth": 0.0219441,
+        "usd": 87.07
+      },
+      "converted_volume": {
+        "btc": 3612,
+        "eth": 44194,
+        "usd": 175345002
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.033471,
+      "timestamp": "2021-12-23T03:41:59+00:00",
+      "last_traded_at": "2021-12-23T03:41:59+00:00",
+      "last_fetch_at": "2021-12-23T03:41:59+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/LUNA_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "terra-luna",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "MANA",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 3.242,
+      "volume": 44589261.30567551,
+      "converted_last": {
+        "btc": 6.713e-05,
+        "eth": 0.00082239,
+        "usd": 3.25
+      },
+      "converted_volume": {
+        "btc": 2993,
+        "eth": 36670,
+        "usd": 145065232
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.036659,
+      "timestamp": "2021-12-23T03:28:50+00:00",
+      "last_traded_at": "2021-12-23T03:28:50+00:00",
+      "last_fetch_at": "2021-12-23T03:28:50+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/MANA_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "decentraland",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "BTC",
+      "target": "USDC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 48363.83,
+      "volume": 1014.9801120892638,
+      "converted_last": {
+        "btc": 0.99493479,
+        "eth": 12.181262,
+        "usd": 48250
+      },
+      "converted_volume": {
+        "btc": 1010,
+        "eth": 12364,
+        "usd": 48973186
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.019751,
+      "timestamp": "2021-12-23T03:31:56+00:00",
+      "last_traded_at": "2021-12-23T03:31:56+00:00",
+      "last_fetch_at": "2021-12-23T03:31:56+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/BTC_USDC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "bitcoin",
+      "target_coin_id": "usd-coin"
+    },
+    {
+      "base": "FTM",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 1.6443,
+      "volume": 107108776.76190476,
+      "converted_last": {
+        "btc": 3.405e-05,
+        "eth": 0.00041676,
+        "usd": 1.65
+      },
+      "converted_volume": {
+        "btc": 3647,
+        "eth": 44638,
+        "usd": 176934572
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.012002,
+      "timestamp": "2021-12-23T03:37:00+00:00",
+      "last_traded_at": "2021-12-23T03:37:00+00:00",
+      "last_fetch_at": "2021-12-23T03:37:00+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/FTM_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "fantom",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "BTC",
+      "target": "EUR",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 42899.77,
+      "volume": 1472.0648696614946,
+      "converted_last": {
+        "btc": 0.99690482,
+        "eth": 12.140265,
+        "usd": 48644
+      },
+      "converted_volume": {
+        "btc": 1468,
+        "eth": 17871,
+        "usd": 71606545
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.013178,
+      "timestamp": "2021-12-23T02:39:45+00:00",
+      "last_traded_at": "2021-12-23T02:39:45+00:00",
+      "last_fetch_at": "2021-12-23T02:39:45+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/BTC_EUR?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "bitcoin"
+    },
+    {
+      "base": "USDT",
+      "target": "BIDR",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 14303.0,
+      "volume": 8811274.292071594,
+      "converted_last": {
+        "btc": 2.053e-05,
+        "eth": 0.00025179,
+        "usd": 0.995416
+      },
+      "converted_volume": {
+        "btc": 180.905,
+        "eth": 2219,
+        "usd": 8770887
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.016991,
+      "timestamp": "2021-12-23T03:26:02+00:00",
+      "last_traded_at": "2021-12-23T03:26:02+00:00",
+      "last_fetch_at": "2021-12-23T03:26:02+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/USDT_BIDR?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "tether",
+      "target_coin_id": "binanceidr"
+    },
+    {
+      "base": "TUSD",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.9997,
+      "volume": 31052605.54246274,
+      "converted_last": {
+        "btc": 2.07e-05,
+        "eth": 0.00025308,
+        "usd": 1.0
+      },
+      "converted_volume": {
+        "btc": 642.774,
+        "eth": 7859,
+        "usd": 31204332
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.010002,
+      "timestamp": "2021-12-23T03:42:18+00:00",
+      "last_traded_at": "2021-12-23T03:42:18+00:00",
+      "last_fetch_at": "2021-12-23T03:42:18+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/TUSD_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "true-usd",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "GALA",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.43591,
+      "volume": 333051327.8670597,
+      "converted_last": {
+        "btc": 9.03e-06,
+        "eth": 0.00011051,
+        "usd": 0.437717
+      },
+      "converted_volume": {
+        "btc": 3006,
+        "eth": 36804,
+        "usd": 145782346
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.011423,
+      "timestamp": "2021-12-23T03:31:40+00:00",
+      "last_traded_at": "2021-12-23T03:31:40+00:00",
+      "last_fetch_at": "2021-12-23T03:31:40+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/GALA_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "gala",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "FIL",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 35.54,
+      "volume": 3499746.417214406,
+      "converted_last": {
+        "btc": 0.00073588,
+        "eth": 0.00899716,
+        "usd": 35.72
+      },
+      "converted_volume": {
+        "btc": 2575,
+        "eth": 31488,
+        "usd": 125026234
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.028169,
+      "timestamp": "2021-12-23T03:42:16+00:00",
+      "last_traded_at": "2021-12-23T03:42:16+00:00",
+      "last_fetch_at": "2021-12-23T03:42:16+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/FIL_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "filecoin",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "ATOM",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 27.09,
+      "volume": 5830934.649955703,
+      "converted_last": {
+        "btc": 0.00056092,
+        "eth": 0.006879,
+        "usd": 27.2
+      },
+      "converted_volume": {
+        "btc": 3271,
+        "eth": 40111,
+        "usd": 158573621
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.035932,
+      "timestamp": "2021-12-23T03:26:12+00:00",
+      "last_traded_at": "2021-12-23T03:26:12+00:00",
+      "last_fetch_at": "2021-12-23T03:26:12+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ATOM_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "cosmos",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "AXS",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 101.81,
+      "volume": 845716.5083695118,
+      "converted_last": {
+        "btc": 0.00210805,
+        "eth": 0.0257738,
+        "usd": 102.34
+      },
+      "converted_volume": {
+        "btc": 1783,
+        "eth": 21797,
+        "usd": 86549068
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.019791,
+      "timestamp": "2021-12-23T03:42:07+00:00",
+      "last_traded_at": "2021-12-23T03:42:07+00:00",
+      "last_fetch_at": "2021-12-23T03:42:07+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/AXS_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "axie-infinity",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "SOL",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 180.71,
+      "volume": 328296.21242598636,
+      "converted_last": {
+        "btc": 0.00371669,
+        "eth": 0.04546998,
+        "usd": 180.41
+      },
+      "converted_volume": {
+        "btc": 1220,
+        "eth": 14928,
+        "usd": 59227711
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.022178,
+      "timestamp": "2021-12-23T03:41:51+00:00",
+      "last_traded_at": "2021-12-23T03:41:51+00:00",
+      "last_fetch_at": "2021-12-23T03:41:51+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/SOL_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "solana",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "ETH",
+      "target": "USDC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 3961.88,
+      "volume": 8414.940972079417,
+      "converted_last": {
+        "btc": 0.08191824,
+        "eth": 1.001562,
+        "usd": 3976.83
+      },
+      "converted_volume": {
+        "btc": 689.337,
+        "eth": 8428,
+        "usd": 33464792
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.033308,
+      "timestamp": "2021-12-23T03:42:28+00:00",
+      "last_traded_at": "2021-12-23T03:42:28+00:00",
+      "last_fetch_at": "2021-12-23T03:42:28+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ETH_USDC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "ethereum",
+      "target_coin_id": "usd-coin"
+    },
+    {
+      "base": "XRP",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.9936,
+      "volume": 49493154.03099839,
+      "converted_last": {
+        "btc": 2.044e-05,
+        "eth": 0.00025001,
+        "usd": 0.991841
+      },
+      "converted_volume": {
+        "btc": 1011,
+        "eth": 12374,
+        "usd": 49089328
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.061118,
+      "timestamp": "2021-12-23T03:40:43+00:00",
+      "last_traded_at": "2021-12-23T03:40:43+00:00",
+      "last_fetch_at": "2021-12-23T03:40:43+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/XRP_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "ripple",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "CRV",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 5.225,
+      "volume": 33238035.934124403,
+      "converted_last": {
+        "btc": 0.00010819,
+        "eth": 0.00132356,
+        "usd": 5.25
+      },
+      "converted_volume": {
+        "btc": 3596,
+        "eth": 43993,
+        "usd": 174529259
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.056915,
+      "timestamp": "2021-12-23T03:40:30+00:00",
+      "last_traded_at": "2021-12-23T03:40:30+00:00",
+      "last_fetch_at": "2021-12-23T03:40:30+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/CRV_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "curve-dao-token",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "LTC",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 157.4,
+      "volume": 435331.58577636594,
+      "converted_last": {
+        "btc": 0.00323786,
+        "eth": 0.03949983,
+        "usd": 158.06
+      },
+      "converted_volume": {
+        "btc": 1410,
+        "eth": 17196,
+        "usd": 68806846
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.064558,
+      "timestamp": "2021-12-23T02:18:14+00:00",
+      "last_traded_at": "2021-12-23T02:18:14+00:00",
+      "last_fetch_at": "2021-12-23T02:18:14+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/LTC_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "litecoin",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "MATIC",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 2.678,
+      "volume": 51680330.14541225,
+      "converted_last": {
+        "btc": 5.508e-05,
+        "eth": 0.0006747,
+        "usd": 2.67
+      },
+      "converted_volume": {
+        "btc": 2846,
+        "eth": 34869,
+        "usd": 138157837
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.038775,
+      "timestamp": "2021-12-23T03:23:11+00:00",
+      "last_traded_at": "2021-12-23T03:23:11+00:00",
+      "last_fetch_at": "2021-12-23T03:23:11+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/MATIC_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "matic-network",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "TUSD",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 1.0,
+      "volume": 2001304.43131,
+      "converted_last": {
+        "btc": 2.058e-05,
+        "eth": 0.00025068,
+        "usd": 1.0
+      },
+      "converted_volume": {
+        "btc": 41.188451,
+        "eth": 501.678,
+        "usd": 2009146
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.02,
+      "timestamp": "2021-12-23T02:31:32+00:00",
+      "last_traded_at": "2021-12-23T02:31:32+00:00",
+      "last_fetch_at": "2021-12-23T02:31:32+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/TUSD_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "true-usd",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "USDT",
+      "target": "DAI",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 1.0002,
+      "volume": 10756803.644931015,
+      "converted_last": {
+        "btc": 2.068e-05,
+        "eth": 0.00025317,
+        "usd": 1.0
+      },
+      "converted_volume": {
+        "btc": 222.479,
+        "eth": 2723,
+        "usd": 10796212
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.019998,
+      "timestamp": "2021-12-23T03:38:44+00:00",
+      "last_traded_at": "2021-12-23T03:38:44+00:00",
+      "last_fetch_at": "2021-12-23T03:38:44+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/USDT_DAI?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "tether",
+      "target_coin_id": "dai"
+    },
+    {
+      "base": "TRX",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.07908,
+      "volume": 1049714339.128174,
+      "converted_last": {
+        "btc": 1.63e-06,
+        "eth": 1.992e-05,
+        "usd": 0.07893
+      },
+      "converted_volume": {
+        "btc": 1707,
+        "eth": 20914,
+        "usd": 82854236
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.012716,
+      "timestamp": "2021-12-23T03:22:49+00:00",
+      "last_traded_at": "2021-12-23T03:22:49+00:00",
+      "last_fetch_at": "2021-12-23T03:22:49+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/TRX_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "tron",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "BUSD",
+      "target": "BIDR",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 14298.0,
+      "volume": 2703873.869827948,
+      "converted_last": {
+        "btc": 2.07e-05,
+        "eth": 0.00025339,
+        "usd": 1.0
+      },
+      "converted_volume": {
+        "btc": 55.972,
+        "eth": 685.139,
+        "usd": 2716133
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.016987,
+      "timestamp": "2021-12-23T03:38:06+00:00",
+      "last_traded_at": "2021-12-23T03:38:06+00:00",
+      "last_fetch_at": "2021-12-23T03:38:06+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/BUSD_BIDR?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "binance-usd",
+      "target_coin_id": "binanceidr"
+    },
+    {
+      "base": "SHIB",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 3.523e-05,
+      "volume": 4301388499776.5366,
+      "converted_last": {
+        "btc": 7.25e-10,
+        "eth": 8.824e-09,
+        "usd": 3.536e-05
+      },
+      "converted_volume": {
+        "btc": 3117,
+        "eth": 37955,
+        "usd": 152078526
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.057061,
+      "timestamp": "2021-12-23T02:39:22+00:00",
+      "last_traded_at": "2021-12-23T02:39:22+00:00",
+      "last_fetch_at": "2021-12-23T02:39:22+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/SHIB_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "shiba-inu",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "ETH",
+      "target": "EUR",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 3516.13,
+      "volume": 18049.303375806354,
+      "converted_last": {
+        "btc": 0.08169779,
+        "eth": 0.99577135,
+        "usd": 3986.98
+      },
+      "converted_volume": {
+        "btc": 1475,
+        "eth": 17973,
+        "usd": 71962138
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.010287,
+      "timestamp": "2021-12-23T02:42:52+00:00",
+      "last_traded_at": "2021-12-23T02:42:52+00:00",
+      "last_fetch_at": "2021-12-23T02:42:52+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ETH_EUR?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "ethereum"
+    },
+    {
+      "base": "DOT",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.0005785,
+      "volume": 1965260.5887121868,
+      "converted_last": {
+        "btc": 0.0005785,
+        "eth": 0.00708129,
+        "usd": 28.07
+      },
+      "converted_volume": {
+        "btc": 1137,
+        "eth": 13917,
+        "usd": 55170269
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.017851,
+      "timestamp": "2021-12-23T03:38:08+00:00",
+      "last_traded_at": "2021-12-23T03:38:08+00:00",
+      "last_fetch_at": "2021-12-23T03:38:08+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/DOT_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "polkadot",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "FTT",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 41.35,
+      "volume": 445670.8710084643,
+      "converted_last": {
+        "btc": 0.00085618,
+        "eth": 0.01047452,
+        "usd": 41.55
+      },
+      "converted_volume": {
+        "btc": 381.576,
+        "eth": 4668,
+        "usd": 18519803
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.024067,
+      "timestamp": "2021-12-23T03:40:48+00:00",
+      "last_traded_at": "2021-12-23T03:40:48+00:00",
+      "last_fetch_at": "2021-12-23T03:40:48+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/FTT_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "ftx-token",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "AVAX",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.0025176,
+      "volume": 332230.27971480775,
+      "converted_last": {
+        "btc": 0.0025176,
+        "eth": 0.03080029,
+        "usd": 122.19
+      },
+      "converted_volume": {
+        "btc": 836.423,
+        "eth": 10233,
+        "usd": 40595866
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.047925,
+      "timestamp": "2021-12-23T03:40:25+00:00",
+      "last_traded_at": "2021-12-23T03:40:25+00:00",
+      "last_fetch_at": "2021-12-23T03:40:25+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/AVAX_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "avalanche-2",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "VET",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.08743,
+      "volume": 792868989.3310763,
+      "converted_last": {
+        "btc": 1.81e-06,
+        "eth": 2.216e-05,
+        "usd": 0.087835
+      },
+      "converted_volume": {
+        "btc": 1435,
+        "eth": 17570,
+        "usd": 69641560
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.011612,
+      "timestamp": "2021-12-23T03:36:52+00:00",
+      "last_traded_at": "2021-12-23T03:36:52+00:00",
+      "last_fetch_at": "2021-12-23T03:36:52+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/VET_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "vechain",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "MATIC",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 5.552e-05,
+      "volume": 33709353.123198844,
+      "converted_last": {
+        "btc": 5.552e-05,
+        "eth": 0.00067923,
+        "usd": 2.69
+      },
+      "converted_volume": {
+        "btc": 1872,
+        "eth": 22896,
+        "usd": 90835528
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.018031,
+      "timestamp": "2021-12-23T03:40:47+00:00",
+      "last_traded_at": "2021-12-23T03:40:47+00:00",
+      "last_fetch_at": "2021-12-23T03:40:47+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/MATIC_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "matic-network",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "SOL",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.0037272,
+      "volume": 222933.5070481863,
+      "converted_last": {
+        "btc": 0.0037272,
+        "eth": 0.04559852,
+        "usd": 180.9
+      },
+      "converted_volume": {
+        "btc": 830.918,
+        "eth": 10165,
+        "usd": 40328672
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.042907,
+      "timestamp": "2021-12-23T03:40:16+00:00",
+      "last_traded_at": "2021-12-23T03:40:16+00:00",
+      "last_fetch_at": "2021-12-23T03:40:16+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/SOL_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "solana",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "LRC",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 2.2057,
+      "volume": 32308780.940563086,
+      "converted_last": {
+        "btc": 4.567e-05,
+        "eth": 0.00055873,
+        "usd": 2.22
+      },
+      "converted_volume": {
+        "btc": 1476,
+        "eth": 18052,
+        "usd": 71616585
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.014548,
+      "timestamp": "2021-12-23T03:40:47+00:00",
+      "last_traded_at": "2021-12-23T03:40:47+00:00",
+      "last_fetch_at": "2021-12-23T03:40:47+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/LRC_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "loopring",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "EOS",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 3.348,
+      "volume": 15648646.348894862,
+      "converted_last": {
+        "btc": 6.932e-05,
+        "eth": 0.00084874,
+        "usd": 3.36
+      },
+      "converted_volume": {
+        "btc": 1085,
+        "eth": 13282,
+        "usd": 52620466
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.029869,
+      "timestamp": "2021-12-23T03:33:44+00:00",
+      "last_traded_at": "2021-12-23T03:33:44+00:00",
+      "last_fetch_at": "2021-12-23T03:33:44+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/EOS_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "eos",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "BUSD",
+      "target": "DAI",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.9999,
+      "volume": 2498653.219031903,
+      "converted_last": {
+        "btc": 2.068e-05,
+        "eth": 0.0002531,
+        "usd": 1.0
+      },
+      "converted_volume": {
+        "btc": 51.663,
+        "eth": 632.399,
+        "usd": 2507055
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.02,
+      "timestamp": "2021-12-23T03:38:20+00:00",
+      "last_traded_at": "2021-12-23T03:38:20+00:00",
+      "last_fetch_at": "2021-12-23T03:38:20+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/BUSD_DAI?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "binance-usd",
+      "target_coin_id": "dai"
+    },
+    {
+      "base": "UNI",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 17.06,
+      "volume": 3114608.2963716295,
+      "converted_last": {
+        "btc": 0.00035324,
+        "eth": 0.00432153,
+        "usd": 17.14
+      },
+      "converted_volume": {
+        "btc": 1100,
+        "eth": 13460,
+        "usd": 53398500
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.058754,
+      "timestamp": "2021-12-23T03:40:14+00:00",
+      "last_traded_at": "2021-12-23T03:40:14+00:00",
+      "last_fetch_at": "2021-12-23T03:40:14+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/UNI_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "uniswap",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "BCH",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 440.1,
+      "volume": 43929.07018177687,
+      "converted_last": {
+        "btc": 0.0091126,
+        "eth": 0.11148338,
+        "usd": 442.28
+      },
+      "converted_volume": {
+        "btc": 400.308,
+        "eth": 4897,
+        "usd": 19428979
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.022717,
+      "timestamp": "2021-12-23T03:40:39+00:00",
+      "last_traded_at": "2021-12-23T03:40:39+00:00",
+      "last_fetch_at": "2021-12-23T03:40:39+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/BCH_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "bitcoin-cash",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "ONE",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.24873,
+      "volume": 344115003.13749444,
+      "converted_last": {
+        "btc": 5.12e-06,
+        "eth": 6.236e-05,
+        "usd": 0.249573
+      },
+      "converted_volume": {
+        "btc": 1760,
+        "eth": 21460,
+        "usd": 85881953
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.020067,
+      "timestamp": "2021-12-23T02:45:04+00:00",
+      "last_traded_at": "2021-12-23T02:45:04+00:00",
+      "last_fetch_at": "2021-12-23T02:45:04+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ONE_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "harmony",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "ICP",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 24.29,
+      "volume": 3988291.4721490326,
+      "converted_last": {
+        "btc": 0.00050294,
+        "eth": 0.00615299,
+        "usd": 24.41
+      },
+      "converted_volume": {
+        "btc": 2006,
+        "eth": 24540,
+        "usd": 97355614
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.082237,
+      "timestamp": "2021-12-23T03:40:49+00:00",
+      "last_traded_at": "2021-12-23T03:40:49+00:00",
+      "last_fetch_at": "2021-12-23T03:40:49+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ICP_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "internet-computer",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "OMG",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 6.829,
+      "volume": 10783449.244252453,
+      "converted_last": {
+        "btc": 0.00014042,
+        "eth": 0.00171149,
+        "usd": 6.85
+      },
+      "converted_volume": {
+        "btc": 1514,
+        "eth": 18456,
+        "usd": 73895215
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.014749,
+      "timestamp": "2021-12-23T02:42:27+00:00",
+      "last_traded_at": "2021-12-23T02:42:27+00:00",
+      "last_fetch_at": "2021-12-23T02:42:27+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/OMG_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "omisego",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "ADA",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 1.327,
+      "volume": 29297605.047927655,
+      "converted_last": {
+        "btc": 2.729e-05,
+        "eth": 0.00033471,
+        "usd": 1.32
+      },
+      "converted_volume": {
+        "btc": 799.609,
+        "eth": 9806,
+        "usd": 38767749
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.074184,
+      "timestamp": "2021-12-23T03:26:06+00:00",
+      "last_traded_at": "2021-12-23T03:26:06+00:00",
+      "last_fetch_at": "2021-12-23T03:26:06+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ADA_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "cardano",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "BUSD",
+      "target": "BRL",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 5.696,
+      "volume": 10059454.667977529,
+      "converted_last": {
+        "btc": 2.075e-05,
+        "eth": 0.00025391,
+        "usd": 1.01
+      },
+      "converted_volume": {
+        "btc": 208.783,
+        "eth": 2554,
+        "usd": 10133284
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.017553,
+      "timestamp": "2021-12-23T03:40:31+00:00",
+      "last_traded_at": "2021-12-23T03:40:31+00:00",
+      "last_fetch_at": "2021-12-23T03:40:31+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/BUSD_BRL?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "binance-usd"
+    },
+    {
+      "base": "YFI",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 32239.31,
+      "volume": 1502.4072794878302,
+      "converted_last": {
+        "btc": 0.66753872,
+        "eth": 8.16666,
+        "usd": 32399
+      },
+      "converted_volume": {
+        "btc": 1003,
+        "eth": 12270,
+        "usd": 48676575
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.048969,
+      "timestamp": "2021-12-23T03:40:48+00:00",
+      "last_traded_at": "2021-12-23T03:40:48+00:00",
+      "last_fetch_at": "2021-12-23T03:40:48+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/YFI_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "yearn-finance",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "LUNA",
+      "target": "EUR",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 76.75,
+      "volume": 1186271.6397811074,
+      "converted_last": {
+        "btc": 0.00179506,
+        "eth": 0.02201431,
+        "usd": 87.03
+      },
+      "converted_volume": {
+        "btc": 2129,
+        "eth": 26115,
+        "usd": 103242018
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.09085,
+      "timestamp": "2021-12-23T03:26:48+00:00",
+      "last_traded_at": "2021-12-23T03:26:48+00:00",
+      "last_fetch_at": "2021-12-23T03:26:48+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/LUNA_EUR?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "terra-luna"
+    },
+    {
+      "base": "EGLD",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 247.96,
+      "volume": 218510.13601346992,
+      "converted_last": {
+        "btc": 0.00513419,
+        "eth": 0.06281168,
+        "usd": 249.19
+      },
+      "converted_volume": {
+        "btc": 1122,
+        "eth": 13725,
+        "usd": 54450242
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.014036,
+      "timestamp": "2021-12-23T03:40:34+00:00",
+      "last_traded_at": "2021-12-23T03:40:34+00:00",
+      "last_fetch_at": "2021-12-23T03:40:34+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/EGLD_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "elrond-erd-2",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "AAVE",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 215.5,
+      "volume": 321539.17956426914,
+      "converted_last": {
+        "btc": 0.00446209,
+        "eth": 0.05458911,
+        "usd": 216.57
+      },
+      "converted_volume": {
+        "btc": 1435,
+        "eth": 17553,
+        "usd": 69635030
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.045977,
+      "timestamp": "2021-12-23T03:40:17+00:00",
+      "last_traded_at": "2021-12-23T03:40:17+00:00",
+      "last_fetch_at": "2021-12-23T03:40:17+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/AAVE_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "aave",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "AVAX",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 121.3,
+      "volume": 413329.6578532564,
+      "converted_last": {
+        "btc": 0.0024948,
+        "eth": 0.03059575,
+        "usd": 120.96
+      },
+      "converted_volume": {
+        "btc": 1031,
+        "eth": 12646,
+        "usd": 49994809
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.048697,
+      "timestamp": "2021-12-23T03:26:54+00:00",
+      "last_traded_at": "2021-12-23T03:26:54+00:00",
+      "last_fetch_at": "2021-12-23T03:26:54+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/AVAX_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "avalanche-2",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "XLM",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.2711,
+      "volume": 109025204.60568056,
+      "converted_last": {
+        "btc": 5.61e-06,
+        "eth": 6.863e-05,
+        "usd": 0.272506
+      },
+      "converted_volume": {
+        "btc": 611.994,
+        "eth": 7482,
+        "usd": 29710063
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.073883,
+      "timestamp": "2021-12-23T03:42:24+00:00",
+      "last_traded_at": "2021-12-23T03:42:24+00:00",
+      "last_fetch_at": "2021-12-23T03:42:24+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/XLM_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "stellar",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "XRP",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 2.051e-05,
+      "volume": 46724603.72062409,
+      "converted_last": {
+        "btc": 2.051e-05,
+        "eth": 0.00025092,
+        "usd": 0.995455
+      },
+      "converted_volume": {
+        "btc": 958.322,
+        "eth": 11724,
+        "usd": 46512230
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.100959,
+      "timestamp": "2021-12-23T03:40:33+00:00",
+      "last_traded_at": "2021-12-23T03:40:33+00:00",
+      "last_fetch_at": "2021-12-23T03:40:33+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/XRP_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "ripple",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "GTC",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 10.763,
+      "volume": 11608841.406745331,
+      "converted_last": {
+        "btc": 0.00022286,
+        "eth": 0.00272849,
+        "usd": 10.81
+      },
+      "converted_volume": {
+        "btc": 2587,
+        "eth": 31675,
+        "usd": 125464006
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.02748,
+      "timestamp": "2021-12-23T03:31:39+00:00",
+      "last_traded_at": "2021-12-23T03:31:39+00:00",
+      "last_fetch_at": "2021-12-23T03:31:39+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/GTC_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "gitcoin",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "THETA",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 4.524,
+      "volume": 9374370.826525198,
+      "converted_last": {
+        "btc": 9.306e-05,
+        "eth": 0.00113409,
+        "usd": 4.54
+      },
+      "converted_volume": {
+        "btc": 872.406,
+        "eth": 10631,
+        "usd": 42551118
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.022267,
+      "timestamp": "2021-12-23T02:28:20+00:00",
+      "last_traded_at": "2021-12-23T02:28:20+00:00",
+      "last_fetch_at": "2021-12-23T02:28:20+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/THETA_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "theta-token",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "ZEC",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 165.2,
+      "volume": 198107.95776513318,
+      "converted_last": {
+        "btc": 0.00342059,
+        "eth": 0.04187067,
+        "usd": 165.97
+      },
+      "converted_volume": {
+        "btc": 677.646,
+        "eth": 8295,
+        "usd": 32878996
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.060277,
+      "timestamp": "2021-12-23T03:36:46+00:00",
+      "last_traded_at": "2021-12-23T03:36:46+00:00",
+      "last_fetch_at": "2021-12-23T03:36:46+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ZEC_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "zcash",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "ADA",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 2.754e-05,
+      "volume": 35752132.18663762,
+      "converted_last": {
+        "btc": 2.754e-05,
+        "eth": 0.00033692,
+        "usd": 1.34
+      },
+      "converted_volume": {
+        "btc": 984.614,
+        "eth": 12046,
+        "usd": 47793437
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.036127,
+      "timestamp": "2021-12-23T03:41:59+00:00",
+      "last_traded_at": "2021-12-23T03:41:59+00:00",
+      "last_fetch_at": "2021-12-23T03:41:59+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ADA_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "cardano",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "SAND",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 5.0992,
+      "volume": 4788430.739704267,
+      "converted_last": {
+        "btc": 0.00010488,
+        "eth": 0.00128305,
+        "usd": 5.09
+      },
+      "converted_volume": {
+        "btc": 502.192,
+        "eth": 6144,
+        "usd": 24373934
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.013904,
+      "timestamp": "2021-12-23T03:40:43+00:00",
+      "last_traded_at": "2021-12-23T03:40:43+00:00",
+      "last_fetch_at": "2021-12-23T03:40:43+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/SAND_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "the-sandbox",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "LUNA",
+      "target": "BNB",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.16262,
+      "volume": 829603.4203529701,
+      "converted_last": {
+        "btc": 0.00179337,
+        "eth": 0.02194011,
+        "usd": 87.04
+      },
+      "converted_volume": {
+        "btc": 1488,
+        "eth": 18202,
+        "usd": 72209962
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.061429,
+      "timestamp": "2021-12-23T03:40:55+00:00",
+      "last_traded_at": "2021-12-23T03:40:55+00:00",
+      "last_fetch_at": "2021-12-23T03:40:55+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/LUNA_BNB?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "terra-luna",
+      "target_coin_id": "binancecoin"
+    },
+    {
+      "base": "ALGO",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 1.3645,
+      "volume": 31480820.693880543,
+      "converted_last": {
+        "btc": 2.806e-05,
+        "eth": 0.00034377,
+        "usd": 1.36
+      },
+      "converted_volume": {
+        "btc": 883.469,
+        "eth": 10822,
+        "usd": 42880169
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.017333,
+      "timestamp": "2021-12-23T03:23:06+00:00",
+      "last_traded_at": "2021-12-23T03:23:06+00:00",
+      "last_fetch_at": "2021-12-23T03:23:06+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ALGO_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "algorand",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "SUSHI",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 6.304,
+      "volume": 9946500.369051397,
+      "converted_last": {
+        "btc": 0.00013053,
+        "eth": 0.00159689,
+        "usd": 6.34
+      },
+      "converted_volume": {
+        "btc": 1298,
+        "eth": 15883,
+        "usd": 63013428
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.031781,
+      "timestamp": "2021-12-23T03:40:25+00:00",
+      "last_traded_at": "2021-12-23T03:40:25+00:00",
+      "last_fetch_at": "2021-12-23T03:40:25+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/SUSHI_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "sushi",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "ETC",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 35.98,
+      "volume": 767179.6699610895,
+      "converted_last": {
+        "btc": 0.00074014,
+        "eth": 0.00901342,
+        "usd": 36.11
+      },
+      "converted_volume": {
+        "btc": 567.822,
+        "eth": 6915,
+        "usd": 27706659
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.027762,
+      "timestamp": "2021-12-23T02:39:17+00:00",
+      "last_traded_at": "2021-12-23T02:39:17+00:00",
+      "last_fetch_at": "2021-12-23T02:39:17+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ETC_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "ethereum-classic",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "GRT",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.7007,
+      "volume": 49767821.08634223,
+      "converted_last": {
+        "btc": 1.451e-05,
+        "eth": 0.00017739,
+        "usd": 0.704335
+      },
+      "converted_volume": {
+        "btc": 722.057,
+        "eth": 8828,
+        "usd": 35053218
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.014213,
+      "timestamp": "2021-12-23T03:42:13+00:00",
+      "last_traded_at": "2021-12-23T03:42:13+00:00",
+      "last_fetch_at": "2021-12-23T03:42:13+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/GRT_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "the-graph",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "DOT",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 28.01,
+      "volume": 1407352.4225633703,
+      "converted_last": {
+        "btc": 0.00057609,
+        "eth": 0.00705175,
+        "usd": 27.96
+      },
+      "converted_volume": {
+        "btc": 810.757,
+        "eth": 9924,
+        "usd": 39343417
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.035714,
+      "timestamp": "2021-12-23T03:38:14+00:00",
+      "last_traded_at": "2021-12-23T03:38:14+00:00",
+      "last_fetch_at": "2021-12-23T03:38:14+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/DOT_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "polkadot",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "VET",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 1.8e-06,
+      "volume": 170762582.89444444,
+      "converted_last": {
+        "btc": 1.8e-06,
+        "eth": 2.205e-05,
+        "usd": 0.087365
+      },
+      "converted_volume": {
+        "btc": 307.373,
+        "eth": 3765,
+        "usd": 14918680
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.549451,
+      "timestamp": "2021-12-23T03:23:09+00:00",
+      "last_traded_at": "2021-12-23T03:23:09+00:00",
+      "last_fetch_at": "2021-12-23T03:23:09+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/VET_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "vechain",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "ALICE",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 13.13,
+      "volume": 4716927.430883473,
+      "converted_last": {
+        "btc": 0.00027187,
+        "eth": 0.00332601,
+        "usd": 13.2
+      },
+      "converted_volume": {
+        "btc": 1282,
+        "eth": 15689,
+        "usd": 62240134
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.074906,
+      "timestamp": "2021-12-23T03:40:20+00:00",
+      "last_traded_at": "2021-12-23T03:40:20+00:00",
+      "last_fetch_at": "2021-12-23T03:40:20+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ALICE_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "my-neighbor-alice",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "XTZ",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 4.568,
+      "volume": 8379364.250985114,
+      "converted_last": {
+        "btc": 9.458e-05,
+        "eth": 0.00115778,
+        "usd": 4.59
+      },
+      "converted_volume": {
+        "btc": 792.552,
+        "eth": 9701,
+        "usd": 38460018
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.043469,
+      "timestamp": "2021-12-23T03:38:40+00:00",
+      "last_traded_at": "2021-12-23T03:38:40+00:00",
+      "last_fetch_at": "2021-12-23T03:38:40+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/XTZ_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "tezos",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "SHIB",
+      "target": "TRY",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.00044651,
+      "volume": 2274504331509.7974,
+      "converted_last": {
+        "btc": 7.64e-10,
+        "eth": 9.353e-09,
+        "usd": 3.705e-05
+      },
+      "converted_volume": {
+        "btc": 1738,
+        "eth": 21273,
+        "usd": 84278441
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.018888,
+      "timestamp": "2021-12-23T03:34:00+00:00",
+      "last_traded_at": "2021-12-23T03:34:00+00:00",
+      "last_fetch_at": "2021-12-23T03:34:00+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/SHIB_TRY?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "shiba-inu"
+    },
+    {
+      "base": "TRX",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 1.64e-06,
+      "volume": 83135137.7195122,
+      "converted_last": {
+        "btc": 1.64e-06,
+        "eth": 1.999e-05,
+        "usd": 0.080052
+      },
+      "converted_volume": {
+        "btc": 136.342,
+        "eth": 1662,
+        "usd": 6655112
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.609756,
+      "timestamp": "2021-12-23T02:20:20+00:00",
+      "last_traded_at": "2021-12-23T02:20:20+00:00",
+      "last_fetch_at": "2021-12-23T02:20:20+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/TRX_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "tron",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "REN",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.6934,
+      "volume": 137030157.3419383,
+      "converted_last": {
+        "btc": 1.436e-05,
+        "eth": 0.00017554,
+        "usd": 0.696997
+      },
+      "converted_volume": {
+        "btc": 1967,
+        "eth": 24054,
+        "usd": 95509625
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.042833,
+      "timestamp": "2021-12-23T03:42:21+00:00",
+      "last_traded_at": "2021-12-23T03:42:21+00:00",
+      "last_fetch_at": "2021-12-23T03:42:21+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/REN_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "republic-protocol",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "LTC",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.003239,
+      "volume": 85153.08962025316,
+      "converted_last": {
+        "btc": 0.003239,
+        "eth": 0.03964789,
+        "usd": 157.16
+      },
+      "converted_volume": {
+        "btc": 275.811,
+        "eth": 3376,
+        "usd": 13382428
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.061881,
+      "timestamp": "2021-12-23T03:37:58+00:00",
+      "last_traded_at": "2021-12-23T03:37:58+00:00",
+      "last_fetch_at": "2021-12-23T03:37:58+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/LTC_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "litecoin",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "OCEAN",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.9133,
+      "volume": 113581218.77553925,
+      "converted_last": {
+        "btc": 1.891e-05,
+        "eth": 0.00023135,
+        "usd": 0.917825
+      },
+      "converted_volume": {
+        "btc": 2148,
+        "eth": 26277,
+        "usd": 104247723
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.086031,
+      "timestamp": "2021-12-23T03:40:41+00:00",
+      "last_traded_at": "2021-12-23T03:40:41+00:00",
+      "last_fetch_at": "2021-12-23T03:40:41+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/OCEAN_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "ocean-protocol",
+      "target_coin_id": "tether"
+    },
+    {
+      "base": "DOGE",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 3.59e-06,
+      "volume": 70843777.40111421,
+      "converted_last": {
+        "btc": 3.59e-06,
+        "eth": 4.373e-05,
+        "usd": 0.175103
+      },
+      "converted_volume": {
+        "btc": 254.329,
+        "eth": 3098,
+        "usd": 12404927
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.278552,
+      "timestamp": "2021-12-23T02:32:28+00:00",
+      "last_traded_at": "2021-12-23T02:32:28+00:00",
+      "last_fetch_at": "2021-12-23T02:32:28+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/DOGE_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "dogecoin",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "MANA",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 3.2566,
+      "volume": 6419109.188693729,
+      "converted_last": {
+        "btc": 6.698e-05,
+        "eth": 0.00081988,
+        "usd": 3.25
+      },
+      "converted_volume": {
+        "btc": 429.946,
+        "eth": 5263,
+        "usd": 20863890
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.030761,
+      "timestamp": "2021-12-23T03:38:02+00:00",
+      "last_traded_at": "2021-12-23T03:38:02+00:00",
+      "last_fetch_at": "2021-12-23T03:38:02+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/MANA_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "decentraland",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "LINK",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 20.48,
+      "volume": 612088.9724023438,
+      "converted_last": {
+        "btc": 0.00042122,
+        "eth": 0.00515315,
+        "usd": 20.44
+      },
+      "converted_volume": {
+        "btc": 257.821,
+        "eth": 3154,
+        "usd": 12513387
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.099206,
+      "timestamp": "2021-12-23T03:40:12+00:00",
+      "last_traded_at": "2021-12-23T03:40:12+00:00",
+      "last_fetch_at": "2021-12-23T03:40:12+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/LINK_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "chainlink",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "USDT",
+      "target": "RUB",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 73.87,
+      "volume": 4158113.3855421687,
+      "converted_last": {
+        "btc": 2.069e-05,
+        "eth": 0.0002537,
+        "usd": 1.0
+      },
+      "converted_volume": {
+        "btc": 86.02,
+        "eth": 1055,
+        "usd": 4170540
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.013515,
+      "timestamp": "2021-12-23T03:26:53+00:00",
+      "last_traded_at": "2021-12-23T03:26:53+00:00",
+      "last_fetch_at": "2021-12-23T03:26:53+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/USDT_RUB?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "tether"
+    },
+    {
+      "base": "GALA",
+      "target": "BUSD",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.43986,
+      "volume": 52044639.82107943,
+      "converted_last": {
+        "btc": 9.05e-06,
+        "eth": 0.00011032,
+        "usd": 0.441539
+      },
+      "converted_volume": {
+        "btc": 471.143,
+        "eth": 5741,
+        "usd": 22979745
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.10442,
+      "timestamp": "2021-12-23T02:28:13+00:00",
+      "last_traded_at": "2021-12-23T02:28:13+00:00",
+      "last_fetch_at": "2021-12-23T02:28:13+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/GALA_BUSD?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "gala",
+      "target_coin_id": "binance-usd"
+    },
+    {
+      "base": "PAXG",
+      "target": "USDT",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 1811.0,
+      "volume": 1936.262591054666,
+      "converted_last": {
+        "btc": 0.03749809,
+        "eth": 0.45986994,
+        "usd": 1818.03
+      },
+      "converted_volume": {
+        "btc": 72.606,
+        "eth": 890.429,
+        "usd": 3520193
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.055218,
+      "timestamp": "2021-12-23T03:26:34+00:00",
+      "last_traded_at": "2021-12-23T03:26:34+00:00",
+      "last_fetch_at": "2021-12-23T03:26:34+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/PAXG_USDT?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "pax-gold",
+      "target_coin_id": "tether"
+    }
+  ]
+}

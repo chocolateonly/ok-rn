@@ -42,12 +42,16 @@ Future<TrendingModel> get getTrendingList async {
 }
 
 Future<CoinDetailModel> getCoinDetail({String? name}) async {
-  CoinDetailModel cd = CoinDetailModel.fromJson(await handleResponse(await buildHttpResponse('coins/$name?localization=false&tickers=true&market_data=true&community_data=true&developer_data=true&sparkline=true')));
+  var iterable = jsonDecode(await rootBundle.loadString('assets/yield_app_coins.json'));
+
+  CoinDetailModel cd = CoinDetailModel.fromJson(iterable);
   return cd;
 }
 
 Future<CoinChartModel> getCoinMarket({String? name, int timeLimit = 1, String currency = ' usd'}) async {
-  CoinChartModel cd = CoinChartModel.fromJson(await handleResponse(await buildHttpResponse('https://api.coingecko.com/api/v3/coins/$name/market_chart?vs_currency=$currency&days=$timeLimit')));
+  var iterable = jsonDecode(await rootBundle.loadString('assets/market_chart.json'));
+
+  CoinChartModel cd = CoinChartModel.fromJson(iterable);
 
   return cd;
 }
@@ -79,7 +83,8 @@ Future<SearchModel> get getCoinListForSearch async {
 }
 
 Future<NewsResponse> getCryptoNews({int page = 1}) async {
-  return NewsResponse.fromJson(await handleResponse(await buildHttpResponse('https://api.coingecko.com/api/v3/news?page=$page')));
+  var iterable = jsonDecode(await rootBundle.loadString('assets/news.json'));
+  return NewsResponse.fromJson(iterable);
 }
 
 //region CachedData
@@ -102,7 +107,7 @@ DashboardResponse? getCachedUserDashboardData() {
 //endregion
 
 Future<List<ExchangesResponse>> getExchanges({int page = 1}) async {
-  Iterable iterable = await handleResponse(await buildHttpResponse('https://api.coingecko.com/api/v3/exchanges?per_page=${AppConstant.perPage}&page=$page'));
+  Iterable iterable = jsonDecode(await rootBundle.loadString('assets/exchanges.json'));
   List<ExchangesResponse> list = [];
 
   iterable.forEach((element) {
@@ -113,22 +118,24 @@ Future<List<ExchangesResponse>> getExchanges({int page = 1}) async {
 }
 
 Future<ExchangeDetailResponse> getExchangesDetail(String exchangeId) async {
-  return ExchangeDetailResponse.fromJson(await handleResponse(await buildHttpResponse('https://api.coingecko.com/api/v3/exchanges/$exchangeId')));
+  var iterable = jsonDecode(await rootBundle.loadString('assets/exchange_detail.json'));
+  return ExchangeDetailResponse.fromJson(iterable);
 }
 
 Future<List> getExchangesChart({String? exchangeId = "binance", int interval = 1}) async {
-  Iterable it = await handleResponse(await buildHttpResponse('https://api.coingecko.com/api/v3/exchanges/$exchangeId/volume_chart?days=$interval'));
+  Iterable it = jsonDecode(await rootBundle.loadString('assets/volume_chart.json'));
 
   return it.toList();
 }
 
 Future<ExchangeTickerModel> getExchangesTickerList({String? exchangeId = "binance", int page = 1}) async {
-  return ExchangeTickerModel.fromJson(await handleResponse(await buildHttpResponse('https://api.coingecko.com/api/v3/exchanges/$exchangeId/tickers?page=$page&order=trust_score_desc')));
+  var iterable = jsonDecode(await rootBundle.loadString('assets/tickers.json'));
+  return ExchangeTickerModel.fromJson(iterable);
 }
 
 class DerivativesApi {
   static Future<List<DerivativesResponse>> getDerivativesList({int page = 1}) async {
-    Iterable iterable = await handleResponse(await buildHttpResponse('https://api.coingecko.com/api/v3/derivatives/exchanges?order=&per_page=${AppConstant.perPage}&page=$page'));
+    Iterable iterable = jsonDecode(await rootBundle.loadString('assets/derivatives.json'));
     List<DerivativesResponse> list = [];
 
     iterable.forEach((element) {
@@ -139,13 +146,14 @@ class DerivativesApi {
   }
 
   static Future<DerivativesDetailResponse> getDerivativesDetail({String? id}) async {
-    return DerivativesDetailResponse.fromJson(await handleResponse(await buildHttpResponse('https://api.coingecko.com/api/v3/derivatives/exchanges/$id?include_tickers=all')));
+    var iterable = jsonDecode(await rootBundle.loadString('assets/derivatives_detail.json'));
+    return DerivativesDetailResponse.fromJson(iterable);
   }
 }
 
 class ChartApi {
   static Future<List<CandleChartResponse>> getOLHCChart({String? coinId, String currency = 'inr', int days = 1}) async {
-    Iterable it = await handleResponse(await buildHttpResponse('https://api.coingecko.com/api/v3/coins/$coinId/ohlc?vs_currency=$currency&days=$days'));
+    Iterable it = jsonDecode(await rootBundle.loadString('assets/ohlc.json'));
 
     List<CandleChartResponse> data = [];
 

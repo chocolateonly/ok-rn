@@ -22,7 +22,7 @@ class DerivativesDetailResponse {
       number_of_futures_pairs: json['number_of_futures_pairs'],
       number_of_perpetual_pairs: json['number_of_perpetual_pairs'],
       open_interest_btc: json['open_interest_btc'],
-      tickers: json['tickers'] != null ? (json['tickers'] as List).map((i) => Ticker.fromJson(i)).toList() : null,
+      tickers: json['tickers.json'] != null ? (json['tickers.json'] as List).map((i) => Ticker.fromJson(i)).toList() : null,
       trade_volume_24h_btc: json['trade_volume_24h_btc'],
       url: json['url'],
       year_established: json['year_established'],
@@ -42,7 +42,7 @@ class DerivativesDetailResponse {
     data['url'] = this.url;
     data['year_established'] = this.year_established;
     if (this.tickers != null) {
-      data['tickers'] = this.tickers!.map((v) => v.toJson()).toList();
+      data['tickers.json'] = this.tickers!.map((v) => v.toJson()).toList();
     }
     return data;
   }

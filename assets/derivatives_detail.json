@@ -1,0 +1,3200 @@
+{
+  "name": "BitMEX",
+  "open_interest_btc": 990325.39,
+  "trade_volume_24h_btc": "17471.3",
+  "number_of_perpetual_pairs": 42,
+  "number_of_futures_pairs": 94,
+  "image": "https://assets.coingecko.com/markets/images/378/small/BitMEX.png?1591671734",
+  "year_established": null,
+  "country": "Seychelles",
+  "description": "",
+  "url": "https://www.bitmex.com/",
+  "tickers": [
+    {
+      "symbol": "AAVEUSDT",
+      "base": "AAVE",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/AAVEUSDT",
+      "contract_type": "perpetual",
+      "last": 325.89,
+      "h24_percentage_change": 0.2,
+      "index": 325.89,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00905570631460203,
+      "funding_rate": 0.236,
+      "open_interest_usd": 0.0,
+      "h24_volume": 5115.615904221894,
+      "converted_volume": {
+        "btc": "26.44388572212629682321738520263656480330124",
+        "eth": "365.467968455424404717276689140516815604849741784347398436",
+        "usd": "1666037.373558726105055221974301016391149086144844760574984"
+      },
+      "converted_last": {
+        "btc": "0.00516924769514112288895404546",
+        "eth": "0.071441635826060629585783849302695594666694",
+        "usd": "325.676791368123086340178770032350099432236"
+      },
+      "last_traded": 1635939140,
+      "expired_at": 1635854400
+    },
+    {
+      "symbol": "ADAUSD",
+      "base": "ADA",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/ADAUSD",
+      "contract_type": "perpetual",
+      "last": 1.329,
+      "h24_percentage_change": 2.301,
+      "index": 1.3355,
+      "index_basis_percentage": -0.142,
+      "bid_ask_spread": 0.000672294016583178,
+      "funding_rate": 0.045,
+      "open_interest_usd": 0.0,
+      "h24_volume": 4497387.670659414,
+      "converted_volume": {
+        "btc": "123.335659024306495161130056139705777044005440921257",
+        "eth": "1510.9973090232355083547573713111085549872031406489824299643406769",
+        "usd": "5977477.9530734271474000000000001253977289110145663637138640445322"
+      },
+      "converted_last": {
+        "btc": "0.0000274238442527287909621233859913633255",
+        "eth": "0.00033597221757885299767191641735974240854143355626335",
+        "usd": "1.3291000000000000000000000000000278823481749414223"
+      },
+      "last_traded": 1640230089,
+      "expired_at": null
+    },
+    {
+      "symbol": "ADAUSDT",
+      "base": "ADA",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/ADAUSDT",
+      "contract_type": "perpetual",
+      "last": 1.336,
+      "h24_percentage_change": 3.166,
+      "index": 1.32592,
+      "index_basis_percentage": -0.754,
+      "bid_ask_spread": 0.000754204691153263,
+      "funding_rate": 0.01,
+      "open_interest_usd": 0.0,
+      "h24_volume": 562720.0,
+      "converted_volume": {
+        "btc": "15.56644833845765852468724907136",
+        "eth": "190.706092110987471000351452307809539078160512",
+        "usd": "754429.842000921975435793717525188662819968256"
+      },
+      "converted_last": {
+        "btc": "0.000027662866680511903832611688",
+        "eth": "0.0003389005048887323553460894446755216432296",
+        "usd": "1.3406842514943879290513820683913645557648"
+      },
+      "last_traded": 1640230088,
+      "expired_at": null
+    },
+    {
+      "symbol": "ADAUSDTH21",
+      "base": "ADA",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/ADAUSDTH21",
+      "contract_type": "futures",
+      "last": 1.262,
+      "h24_percentage_change": 0.0,
+      "index": 1.262438,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0281267045589295,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 4600110.655214276,
+      "converted_volume": {
+        "btc": "106.338043428893180734121130067304956605842424",
+        "eth": "3448.6984868406254930710571918764135961816502007326940775832",
+        "usd": "5805239.4476210478258105372479613458453047080472846140096816"
+      },
+      "converted_last": {
+        "btc": "0.000023116409886435631598800148574",
+        "eth": "0.0007496990279856611371341895831103323728787782",
+        "usd": "1.2619782180762858586396380978612521555195916"
+      },
+      "last_traded": 1616845942,
+      "expired_at": 1616760000
+    },
+    {
+      "symbol": "ADAUSDTZ20",
+      "base": "ADA",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/ADAUSDTZ20",
+      "contract_type": "futures",
+      "last": 0.166,
+      "h24_percentage_change": 0.0,
+      "index": 0.166003,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0185684336627732,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 6810658.15324165,
+      "converted_volume": {
+        "btc": "45.5426959786864048998517717160898687693323",
+        "eth": "1817.78277941930994027770013899739126594484941658329445456",
+        "usd": "1130861.56759719706213482676086395933225786491016579547646"
+      },
+      "converted_last": {
+        "btc": "0.000006686974291465440045309399062",
+        "eth": "0.0002669026602890213967870041940223940208175264",
+        "usd": "0.1660429201044166385268279196458374006832124"
+      },
+      "last_traded": 1608983024,
+      "expired_at": 1608897600
+    },
+    {
+      "symbol": "ADAH20",
+      "base": "ADA",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ADAH20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 4.54e-06,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00219780219780218,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 25956564.0,
+      "converted_volume": {
+        "btc": "117.84280056",
+        "eth": "3562.335592680573201680256",
+        "usd": "1268363.401868463227778552"
+      },
+      "converted_last": {
+        "btc": "0.00000454",
+        "eth": "0.000137242186318673504",
+        "usd": "0.048864842121186118"
+      },
+      "last_traded": 1585396740,
+      "expired_at": 1585310400
+    },
+    {
+      "symbol": "ADAH21",
+      "base": "ADA",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ADAH21",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 2.393e-05,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00251889168765741,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 238010882.0,
+      "converted_volume": {
+        "btc": "5695.60040626",
+        "eth": "184716.662723367937213127818",
+        "usd": "310935983.869373022604756884"
+      },
+      "converted_last": {
+        "btc": "0.00002393",
+        "eth": "0.000776084946920065349",
+        "usd": "1.306393981891017162"
+      },
+      "last_traded": 1616845942,
+      "expired_at": 1616760000
+    },
+    {
+      "symbol": "ADAH22",
+      "base": "ADA",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ADAH22",
+      "contract_type": "",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": null,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 331620.0,
+      "converted_volume": {
+        "btc": "9.2422494",
+        "eth": "113.22770789240639829198",
+        "usd": "447926.75907637207019724"
+      },
+      "converted_last": {
+        "btc": "0.00002787",
+        "eth": "0.000341438115591358779",
+        "usd": "1.350722993415270702"
+      },
+      "last_traded": 1640227494,
+      "expired_at": null
+    },
+    {
+      "symbol": "ADAM20",
+      "base": "ADA",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ADAM20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 8.78e-06,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0011389521640091,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 23637777.0,
+      "converted_volume": {
+        "btc": "207.53968206",
+        "eth": "6273.832536078586092754656",
+        "usd": "2233787.180119617383217102"
+      },
+      "converted_last": {
+        "btc": "0.00000878",
+        "eth": "0.000265415505699989728",
+        "usd": "0.094500729917183726"
+      },
+      "last_traded": 1593258962,
+      "expired_at": 1593172800
+    },
+    {
+      "symbol": "ADAM21",
+      "base": "ADA",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ADAM21",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 3.983e-05,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00931520644511576,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 66989138.0,
+      "converted_volume": {
+        "btc": "2668.17736654",
+        "eth": "46652.238804172362301280928",
+        "usd": "84910418.648341484998393524"
+      },
+      "converted_last": {
+        "btc": "0.00003983",
+        "eth": "0.000696414974083893456",
+        "usd": "1.267525171742641098"
+      },
+      "last_traded": 1624708278,
+      "expired_at": 1624622400
+    },
+    {
+      "symbol": "ADAU20",
+      "base": "ADA",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ADAU20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 8.73e-06,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00114547537227949,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 160858330.0,
+      "converted_volume": {
+        "btc": "1404.2932209",
+        "eth": "42451.16120458324421754384",
+        "usd": "15114662.23152652902523953"
+      },
+      "converted_last": {
+        "btc": "0.00000873",
+        "eth": "0.000263904027877096848",
+        "usd": "0.093962570862985641"
+      },
+      "last_traded": 1601121550,
+      "expired_at": 1601035200
+    },
+    {
+      "symbol": "ADAU21",
+      "base": "ADA",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ADAU21",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 5.395e-05,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00370370370370367,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 92692940.0,
+      "converted_volume": {
+        "btc": "5000.784113",
+        "eth": "72951.6658330248446832395",
+        "usd": "212708238.2475006907620033"
+      },
+      "converted_last": {
+        "btc": "0.00005395",
+        "eth": "0.000787025051023571425",
+        "usd": "2.294762020144152195"
+      },
+      "last_traded": 1632571171,
+      "expired_at": 1632484800
+    },
+    {
+      "symbol": "ADAZ19",
+      "base": "ADA",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ADAZ19",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 4.6e-06,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00217391304347824,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 0.0,
+      "converted_volume": {
+        "btc": "0.0",
+        "eth": "0.0",
+        "usd": "0.0"
+      },
+      "converted_last": {
+        "btc": "0.0000046",
+        "eth": "0.00013905595970614496",
+        "usd": "0.04951063298622382"
+      },
+      "last_traded": 1577534612,
+      "expired_at": 1577448000
+    },
+    {
+      "symbol": "ADAZ20",
+      "base": "ADA",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ADAZ20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 6.76e-06,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00296735905044508,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 84448374.0,
+      "converted_volume": {
+        "btc": "570.87100824",
+        "eth": "22796.786706365309488765512",
+        "usd": "14173385.322898265396498904"
+      },
+      "converted_last": {
+        "btc": "0.00000676",
+        "eth": "0.000269949385956978988",
+        "usd": "0.167834910863982596"
+      },
+      "last_traded": 1608983654,
+      "expired_at": 1608897600
+    },
+    {
+      "symbol": "AVAXUSD",
+      "base": "AVAX",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/AVAXUSD",
+      "contract_type": "perpetual",
+      "last": 121.316,
+      "h24_percentage_change": -4.022,
+      "index": 121.202,
+      "index_basis_percentage": -0.094,
+      "bid_ask_spread": 0.00231139434864083,
+      "funding_rate": 0.001,
+      "open_interest_usd": 0.0,
+      "h24_volume": 27149.817579157076,
+      "converted_volume": {
+        "btc": "67.96036052291908833727851044065277559251247786835688",
+        "eth": "832.589071828305117998998651947989350016097807488344876533091040296",
+        "usd": "3293707.269433019832016000000000069096601363830453691696228699861648"
+      },
+      "converted_last": {
+        "btc": "0.00250316085273045369374837160102944338",
+        "eth": "0.030666470203743984851076827995195628646913364917346",
+        "usd": "121.316000000000000000000000000002545011625303734548"
+      },
+      "last_traded": 1640230088,
+      "expired_at": null
+    },
+    {
+      "symbol": "AXSUSDT",
+      "base": "AXS",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/AXSUSDT",
+      "contract_type": "perpetual",
+      "last": 138.84,
+      "h24_percentage_change": 0.177,
+      "index": 138.84,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0175566934893929,
+      "funding_rate": 0.01,
+      "open_interest_usd": 0.0,
+      "h24_volume": 32436.627032141903,
+      "converted_volume": {
+        "btc": "71.43426831237334141636436957624378811461928",
+        "eth": "987.257969292251955155689435435562779576432500879175414392",
+        "usd": "4500554.949141048547048399626418093672966922967327449236848"
+      },
+      "converted_last": {
+        "btc": "0.00220227177880080242383129176",
+        "eth": "0.030436517592102420484489335779515346784264",
+        "usd": "138.749166017828743770813527359819226748816"
+      },
+      "last_traded": 1635939140,
+      "expired_at": 1635854400
+    },
+    {
+      "symbol": "BCHUSD",
+      "base": "BCH",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/BCHUSD",
+      "contract_type": "perpetual",
+      "last": 438.8,
+      "h24_percentage_change": -0.926,
+      "index": 438.78,
+      "index_basis_percentage": -0.005,
+      "bid_ask_spread": 0.000113934146063601,
+      "funding_rate": 0.01,
+      "open_interest_usd": 5145364.36068927,
+      "h24_volume": 11403.116269900116,
+      "converted_volume": {
+        "btc": "103.243055055572587750968804654605823240322630954344",
+        "eth": "1264.8408383950345025208489674687874683471893599777137075273940648",
+        "usd": "5003687.4192321709008000000000001049691932748517611290884280359824"
+      },
+      "converted_last": {
+        "btc": "0.009053933382061089063411136688744434",
+        "eth": "0.1109206298048308595127807719038860649070657170178",
+        "usd": "438.8000000000000000000000000000092053076361178964"
+      },
+      "last_traded": 1640230089,
+      "expired_at": null
+    },
+    {
+      "symbol": "BCHH20",
+      "base": "BCH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/BCHH20",
+      "contract_type": "futures",
+      "last": 0.034,
+      "h24_percentage_change": 0.0,
+      "index": 0.03398,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00205882352941178,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 6429.0,
+      "converted_volume": {
+        "btc": "218.45742",
+        "eth": "6603.870911527910023392",
+        "usd": "2351296.770595076360814"
+      },
+      "converted_last": {
+        "btc": "0.03398",
+        "eth": "1.027200328438001248",
+        "usd": "365.732893233018566"
+      },
+      "last_traded": 1585396768,
+      "expired_at": 1585310400
+    },
+    {
+      "symbol": "BCHH21",
+      "base": "BCH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/BCHH21",
+      "contract_type": "futures",
+      "last": 0.009,
+      "h24_percentage_change": 0.0,
+      "index": 0.00919,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0130151843817788,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 11607.0,
+      "converted_volume": {
+        "btc": "106.66833",
+        "eth": "3459.410164066110082269",
+        "usd": "5823270.554549312272122"
+      },
+      "converted_last": {
+        "btc": "0.00919",
+        "eth": "0.298045159306117867",
+        "usd": "501.703330279082646"
+      },
+      "last_traded": 1616845942,
+      "expired_at": 1616760000
+    },
+    {
+      "symbol": "BCHM20",
+      "base": "BCH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/BCHM20",
+      "contract_type": "futures",
+      "last": 0.025,
+      "h24_percentage_change": 0.0,
+      "index": 0.02513,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001398565165404527,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 10572.0,
+      "converted_volume": {
+        "btc": "265.67436",
+        "eth": "8031.218065025184851136",
+        "usd": "2859501.246045630912012"
+      },
+      "converted_last": {
+        "btc": "0.02513",
+        "eth": "0.759668753785961488",
+        "usd": "270.478740639957521"
+      },
+      "last_traded": 1593258962,
+      "expired_at": 1593172800
+    },
+    {
+      "symbol": "BCHM21",
+      "base": "BCH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/BCHM21",
+      "contract_type": "futures",
+      "last": 0.014,
+      "h24_percentage_change": 0.0,
+      "index": 0.014039,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0253164556962025,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 4007.0,
+      "converted_volume": {
+        "btc": "56.254273",
+        "eth": "983.5882016922738482736",
+        "usd": "1790201.0305192673378838"
+      },
+      "converted_last": {
+        "btc": "0.014039",
+        "eth": "0.2454674823289927248",
+        "usd": "446.7684129072291834"
+      },
+      "last_traded": 1624708278,
+      "expired_at": 1624622400
+    },
+    {
+      "symbol": "BCHU20",
+      "base": "BCH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/BCHU20",
+      "contract_type": "futures",
+      "last": 0.02,
+      "h24_percentage_change": 0.0,
+      "index": 0.02008,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001497017892644115,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 8636.0,
+      "converted_volume": {
+        "btc": "173.41088",
+        "eth": "5242.133987366769330688",
+        "usd": "1866452.703369152283296"
+      },
+      "converted_last": {
+        "btc": "0.02008",
+        "eth": "0.607009493673780608",
+        "usd": "216.124676165950936"
+      },
+      "last_traded": 1601121493,
+      "expired_at": 1601035200
+    },
+    {
+      "symbol": "BCHU21",
+      "base": "BCH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/BCHU21",
+      "contract_type": "futures",
+      "last": 0.012,
+      "h24_percentage_change": 1.729,
+      "index": 0.012002,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00696864111498264,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 6514.0,
+      "converted_volume": {
+        "btc": "78.181028",
+        "eth": "1138.2250127333381334044",
+        "usd": "3327033.4735813360419236"
+      },
+      "converted_last": {
+        "btc": "0.012002",
+        "eth": "0.1747351877085259646",
+        "usd": "510.7512240683659874"
+      },
+      "last_traded": 1632568725,
+      "expired_at": 1632484800
+    },
+    {
+      "symbol": "BCHZ19",
+      "base": "BCH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/BCHZ19",
+      "contract_type": "futures",
+      "last": 0.027,
+      "h24_percentage_change": 0.0,
+      "index": 0.02656,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001376364320662386,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 0.0,
+      "converted_volume": {
+        "btc": "0.0",
+        "eth": "0.0",
+        "usd": "0.0"
+      },
+      "converted_last": {
+        "btc": "0.02656",
+        "eth": "0.802897019520697856",
+        "usd": "285.870089590022752"
+      },
+      "last_traded": 1577534612,
+      "expired_at": 1577448000
+    },
+    {
+      "symbol": "BCHZ20",
+      "base": "BCH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/BCHZ20",
+      "contract_type": "futures",
+      "last": 0.013,
+      "h24_percentage_change": 0.0,
+      "index": 0.01303,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00231303006939094,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 34338.0,
+      "converted_volume": {
+        "btc": "447.42414",
+        "eth": "17853.813533107708960002",
+        "usd": "11124289.8022702494204"
+      },
+      "converted_last": {
+        "btc": "0.01303",
+        "eth": "0.519943314494370929",
+        "usd": "323.9644068457758"
+      },
+      "last_traded": 1608983970,
+      "expired_at": 1608897600
+    },
+    {
+      "symbol": "BNBUSD",
+      "base": "BNB",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/BNBUSD",
+      "contract_type": "perpetual",
+      "last": 531.8,
+      "h24_percentage_change": -0.559,
+      "index": 532.37,
+      "index_basis_percentage": 0.107,
+      "bid_ask_spread": 0.0001188040616773052,
+      "funding_rate": 0.024,
+      "open_interest_usd": 0.0,
+      "h24_volume": 2848.3181342231373,
+      "converted_volume": {
+        "btc": "31.2541364334099953392263420081304815942033567253527",
+        "eth": "382.89750442263149590042976045216959900005162236121525328189849359",
+        "usd": "1514735.58377986441614000000000003177667966287211833458926174154742"
+      },
+      "converted_last": {
+        "btc": "0.010972839044166105660715684801901299",
+        "eth": "0.1344293321107772358452525398780460558741512039883",
+        "usd": "531.8000000000000000000000000000111562958087682254"
+      },
+      "last_traded": 1640230089,
+      "expired_at": null
+    },
+    {
+      "symbol": "BNBUSDT",
+      "base": "BNB",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/BNBUSDT",
+      "contract_type": "perpetual",
+      "last": 532.61,
+      "h24_percentage_change": 0.795,
+      "index": 532.199,
+      "index_basis_percentage": -0.077,
+      "bid_ask_spread": 0.00045114477987896,
+      "funding_rate": 0.01,
+      "open_interest_usd": 0.0,
+      "h24_volume": 300.8,
+      "converted_volume": {
+        "btc": "3.317247486789221172280256880704",
+        "eth": "40.6399257567090959027611633966255826243080768",
+        "usd": "160770.8093023042868499480735902201665827872384"
+      },
+      "converted_last": {
+        "btc": "0.01102808340023012357805936463",
+        "eth": "0.135106136159272260315030463419632920958471",
+        "usd": "534.477424542234996176689074435572362309798"
+      },
+      "last_traded": 1640226238,
+      "expired_at": null
+    },
+    {
+      "symbol": "BNBUSDTH21",
+      "base": "BNB",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/BNBUSDTH21",
+      "contract_type": "futures",
+      "last": 247.049,
+      "h24_percentage_change": 0.0,
+      "index": 247.0489,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0114628427850106,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 24863.21667652704,
+      "converted_volume": {
+        "btc": "112.473592537888256694584145068696189538801888",
+        "eth": "3647.6833303249505149396752752527955031810872025142480620384",
+        "usd": "6140193.2475202521612804535883372920702228134675183232396992"
+      },
+      "converted_last": {
+        "btc": "0.0045236943393600697280094689997",
+        "eth": "0.14671003264708983704684957906753930993370921",
+        "usd": "246.95892439843108133823450218918845728958098"
+      },
+      "last_traded": 1616845942,
+      "expired_at": 1616760000
+    },
+    {
+      "symbol": "DOGEUSD",
+      "base": "DOGE",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/DOGEUSD",
+      "contract_type": "perpetual",
+      "last": 0.174,
+      "h24_percentage_change": 0.719,
+      "index": 0.17357,
+      "index_basis_percentage": -0.115,
+      "bid_ask_spread": 0.00028748850045995,
+      "funding_rate": 0.029,
+      "open_interest_usd": 0.0,
+      "h24_volume": 43303034.69079001,
+      "converted_volume": {
+        "btc": "155.2615115079160192938432018761115357451146389001485",
+        "eth": "1902.12407295044532030890276133087708552116576286394779817349192245",
+        "usd": "7524768.3382185800377000000000001578573551591195728259501615240581"
+      },
+      "converted_last": {
+        "btc": "0.00000358546491294611542057646586691686485",
+        "eth": "0.000043925883867788191562296979794298727208069301837245",
+        "usd": "0.17377000000000000000000000000000364541091141341581"
+      },
+      "last_traded": 1640230089,
+      "expired_at": null
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "base": "DOGE",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/DOGEUSDT",
+      "contract_type": "perpetual",
+      "last": 0.174,
+      "h24_percentage_change": 0.842,
+      "index": 0.17351,
+      "index_basis_percentage": -0.075,
+      "bid_ask_spread": 0.000691204423708204,
+      "funding_rate": 0.01,
+      "open_interest_usd": 0.0,
+      "h24_volume": 12762060.0,
+      "converted_volume": {
+        "btc": "45.8840014502299268735435390596872",
+        "eth": "562.12942199345818520031389207629941583435345224",
+        "usd": "2223773.79938016465222855620339785400504737436112"
+      },
+      "converted_last": {
+        "btc": "0.00000359534443892521480650800412",
+        "eth": "0.000044046918913831950735250726926240702193404",
+        "usd": "0.174248812447219700599163160445715974148952"
+      },
+      "last_traded": 1640230089,
+      "expired_at": null
+    },
+    {
+      "symbol": "DOTUSD",
+      "base": "DOT",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/DOTUSD",
+      "contract_type": "perpetual",
+      "last": 27.823,
+      "h24_percentage_change": 7.558,
+      "index": 27.803,
+      "index_basis_percentage": -0.072,
+      "bid_ask_spread": 0.00125673249551167,
+      "funding_rate": 0.016,
+      "open_interest_usd": 0.0,
+      "h24_volume": 191153.37524209506,
+      "converted_volume": {
+        "btc": "109.7378892178337769808606023439845942041126922538959",
+        "eth": "1344.40969155042889750882248017419137443255940129529515507338132103",
+        "usd": "5318460.35936081085438000000000011157261567551140284158442102664614"
+      },
+      "converted_last": {
+        "btc": "0.000574082927276858890180692926369499515",
+        "eth": "0.0070331464974015702010576559176887465449163387524755",
+        "usd": "27.823000000000000000000000000000583681117501614019"
+      },
+      "last_traded": 1640230089,
+      "expired_at": null
+    },
+    {
+      "symbol": "DOTUSDT",
+      "base": "DOT",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/DOTUSDT",
+      "contract_type": "perpetual",
+      "last": 34.944,
+      "h24_percentage_change": -0.36,
+      "index": 34.9436,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00341428571428578,
+      "funding_rate": 0.095,
+      "open_interest_usd": 0.0,
+      "h24_volume": 63003.86526780785,
+      "converted_volume": {
+        "btc": "38.04215820477705320243794877900668064177516",
+        "eth": "590.09162864369803200655140514988188405854416459237555948",
+        "usd": "2204816.57695725300427523162271021860829421700903526900852"
+      },
+      "converted_last": {
+        "btc": "0.0006038067353974691803450920376",
+        "eth": "0.0093659591540204818828258757799435346873528",
+        "usd": "34.9949414624854041943483922619793805611272"
+      },
+      "last_traded": 1634212058,
+      "expired_at": 1634126400
+    },
+    {
+      "symbol": "DOTUSDTH21",
+      "base": "DOT",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/DOTUSDTH21",
+      "contract_type": "futures",
+      "last": 31.189,
+      "h24_percentage_change": 0.0,
+      "index": 31.1893,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0245357255272269,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 274648.7634806995,
+      "converted_volume": {
+        "btc": "156.85327964866057246091451577465863055386555",
+        "eth": "5086.981580040489211550247223960852247271541735871904327615",
+        "usd": "8562982.89063430550179251907810125344987100774417744757587"
+      },
+      "converted_last": {
+        "btc": "0.0005711049911924441791394567289",
+        "eth": "0.01852177128187933261230997416467429646242277",
+        "usd": "31.17794080742713902058498280757070989161226"
+      },
+      "last_traded": 1616845942,
+      "expired_at": 1616760000
+    },
+    {
+      "symbol": "EOSUSD",
+      "base": "EOS",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/EOSUSD",
+      "contract_type": "perpetual",
+      "last": 3.333,
+      "h24_percentage_change": -1.6,
+      "index": 3.3264,
+      "index_basis_percentage": -0.195,
+      "bid_ask_spread": 0.00177049573880687,
+      "funding_rate": 0.01,
+      "open_interest_usd": 0.0,
+      "h24_volume": 107594.6908091976,
+      "converted_volume": {
+        "btc": "7.3991835511908622799722471926638876952754427511972",
+        "eth": "90.64812661044801480184566371075507344766544541192665429890121924",
+        "usd": "358602.34499797468104000000000000752289176102926312994301650780712"
+      },
+      "converted_last": {
+        "btc": "0.0000687690395831162345930788000681775845",
+        "eth": "0.00084249627866116857718811995140943907413117440348365",
+        "usd": "3.3329000000000000000000000000000699188008669492637"
+      },
+      "last_traded": 1640230089,
+      "expired_at": null
+    },
+    {
+      "symbol": "EOSUSDT",
+      "base": "EOS",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/EOSUSDT",
+      "contract_type": "perpetual",
+      "last": 4.703,
+      "h24_percentage_change": 0.068,
+      "index": 4.7027,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00464870575805605,
+      "funding_rate": 0.152,
+      "open_interest_usd": 0.0,
+      "h24_volume": 260020.3490955273,
+      "converted_volume": {
+        "btc": "19.39594393837598530343593893332342157990894",
+        "eth": "268.061823512660218346622075379508088465494607863832371466",
+        "usd": "1221997.698687146301397790245674556296587899573836363474804"
+      },
+      "converted_last": {
+        "btc": "0.0000745939462270709706032225278",
+        "eth": "0.00103092632728594103149242292833712778250042",
+        "usd": "4.69962332924260467682947835720989540212948"
+      },
+      "last_traded": 1635939141,
+      "expired_at": 1635854400
+    },
+    {
+      "symbol": "EOSUSDTH21",
+      "base": "EOS",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/EOSUSDTH21",
+      "contract_type": "futures",
+      "last": 4.035,
+      "h24_percentage_change": 0.0,
+      "index": 4.0353,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00528255528255541,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 1306599.1639654196,
+      "converted_volume": {
+        "btc": "96.54472089294439176374459817105238272912324",
+        "eth": "3131.086694091653672605225435648779209219265129782590316532",
+        "usd": "5270599.346338926117174063303179035837368844076717912413416"
+      },
+      "converted_last": {
+        "btc": "0.0000738900831682298094564946869",
+        "eth": "0.00239636361360362915777059564487533187711217",
+        "usd": "4.03383033733398101559722664899148379814946"
+      },
+      "last_traded": 1616845943,
+      "expired_at": 1616760000
+    },
+    {
+      "symbol": "EOSUSDTZ20",
+      "base": "EOS",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/EOSUSDTZ20",
+      "contract_type": "futures",
+      "last": 2.727,
+      "h24_percentage_change": 0.0,
+      "index": 2.7272,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.015032080659945,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 108050.09823182711,
+      "converted_volume": {
+        "btc": "11.849067709967955838639111229713926130311808",
+        "eth": "472.8199185563288107527574544106727197631253545764647414144",
+        "usd": "294602.93110784373092488621194872347201340162068391570688"
+      },
+      "converted_last": {
+        "btc": "0.0001096627203849936748511596928",
+        "eth": "0.00437593233410921167494604667021839549170304",
+        "usd": "2.726540150623073081405020846605828619008"
+      },
+      "last_traded": 1608983970,
+      "expired_at": 1608897600
+    },
+    {
+      "symbol": "EOSH20",
+      "base": "EOS",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/EOSH20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 0.0003485,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001287026406429398,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 750571.0,
+      "converted_volume": {
+        "btc": "261.5739935",
+        "eth": "7907.2658044155268863256",
+        "usd": "2815368.25889552067004895"
+      },
+      "converted_last": {
+        "btc": "0.0003485",
+        "eth": "0.0105350004255633736",
+        "usd": "3.75096860776065245"
+      },
+      "last_traded": 1585396768,
+      "expired_at": 1585310400
+    },
+    {
+      "symbol": "EOSH21",
+      "base": "EOS",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/EOSH21",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 7.65e-05,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00390117035110525,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 17390224.0,
+      "converted_volume": {
+        "btc": "1330.352136",
+        "eth": "43145.2681509634583494248",
+        "usd": "72626996.4173113247254224"
+      },
+      "converted_last": {
+        "btc": "0.0000765",
+        "eth": "0.00248100703883765145",
+        "usd": "4.1763117264798501"
+      },
+      "last_traded": 1616845942,
+      "expired_at": 1616760000
+    },
+    {
+      "symbol": "EOSM20",
+      "base": "EOS",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/EOSM20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 0.0002668,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001375375375375384,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 2541601.0,
+      "converted_volume": {
+        "btc": "678.0991468",
+        "eth": "20498.63644221566871589568",
+        "usd": "7298503.90988832793387756"
+      },
+      "converted_last": {
+        "btc": "0.0002668",
+        "eth": "0.00806524566295640768",
+        "usd": "2.87161671320098156"
+      },
+      "last_traded": 1593258954,
+      "expired_at": 1593172800
+    },
+    {
+      "symbol": "EOSM21",
+      "base": "EOS",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/EOSM21",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 0.00011184,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0161145926589078,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 7639358.0,
+      "converted_volume": {
+        "btc": "854.38579872",
+        "eth": "14938.665927020723341499904",
+        "usd": "27189442.788276213627844032"
+      },
+      "converted_last": {
+        "btc": "0.00011184",
+        "eth": "0.001955487087661125888",
+        "usd": "3.559126668533692704"
+      },
+      "last_traded": 1624708278,
+      "expired_at": 1624622400
+    },
+    {
+      "symbol": "EOSU20",
+      "base": "EOS",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/EOSU20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 0.0002363,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001423370025402212,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 2722111.0,
+      "converted_volume": {
+        "btc": "643.2348293",
+        "eth": "19444.70358798474597970768",
+        "usd": "6923252.94726709306723781"
+      },
+      "converted_last": {
+        "btc": "0.0002363",
+        "eth": "0.00714324419099175088",
+        "usd": "2.54333969014014971"
+      },
+      "last_traded": 1601121493,
+      "expired_at": 1601035200
+    },
+    {
+      "symbol": "EOSU21",
+      "base": "EOS",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/EOSU21",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 9.583e-05,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00551508844953184,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 6711248.0,
+      "converted_volume": {
+        "btc": "643.13889584",
+        "eth": "9382.13943120888578476136",
+        "usd": "27355898.273421276743748144"
+      },
+      "converted_last": {
+        "btc": "0.00009583",
+        "eth": "0.001397972393690247445",
+        "usd": "4.076126865438630303"
+      },
+      "last_traded": 1632571171,
+      "expired_at": 1632484800
+    },
+    {
+      "symbol": "EOSZ19",
+      "base": "EOS",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/EOSZ19",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 0.000354,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001282645562464676,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 0.0,
+      "converted_volume": {
+        "btc": "0.0",
+        "eth": "0.0",
+        "usd": "0.0"
+      },
+      "converted_last": {
+        "btc": "0.000354",
+        "eth": "0.0107012629860815904",
+        "usd": "3.8101661037224418"
+      },
+      "last_traded": 1577534612,
+      "expired_at": 1577448000
+    },
+    {
+      "symbol": "EOSZ20",
+      "base": "EOS",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/EOSZ20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.543,
+      "index": 0.0001111,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00542005420054189,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 3075091.0,
+      "converted_volume": {
+        "btc": "341.6426101",
+        "eth": "13642.93088953174375313263",
+        "usd": "8482182.99015855919799021"
+      },
+      "converted_last": {
+        "btc": "0.0001111",
+        "eth": "0.00443659419819827893",
+        "usd": "2.75835186345983231"
+      },
+      "last_traded": 1608983654,
+      "expired_at": 1608897600
+    },
+    {
+      "symbol": "ETHUSD",
+      "base": "ETH",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHUSD",
+      "contract_type": "perpetual",
+      "last": 3951.55,
+      "h24_percentage_change": -2.694,
+      "index": 3950.25,
+      "index_basis_percentage": -0.033,
+      "bid_ask_spread": 0.000112653903096341,
+      "funding_rate": 0.064,
+      "open_interest_usd": 161339922.91190946,
+      "h24_volume": 47754.52538125056,
+      "converted_volume": {
+        "btc": "3893.61216762141744898265184542248723797448634197824",
+        "eth": "47701.026241702280041366705083674245017463359414781855506351935808",
+        "usd": "188704394.770280650368000000000003958710132515657487473089165259904"
+      },
+      "converted_last": {
+        "btc": "0.08153388891495783155998695802736569775",
+        "eth": "0.998879705344757025769664674605289379634265118691175",
+        "usd": "3951.55000000000000000000000000008289706788856352215"
+      },
+      "last_traded": 1640230088,
+      "expired_at": null
+    },
+    {
+      "symbol": "ETHUSDH21",
+      "base": "ETH",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHUSDH21",
+      "contract_type": "futures",
+      "last": 1618.38,
+      "h24_percentage_change": 0.0,
+      "index": 1618.38,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.000123819842129729,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 23768.096578936125,
+      "converted_volume": {
+        "btc": "704.6012897362976726078465600078190545605966041523875",
+        "eth": "22851.25175699139845519695415026243610148245509504949372988952170375",
+        "usd": "38465812.1414186459775000000000007817235563575109830580876863863675"
+      },
+      "converted_last": {
+        "btc": "0.0296448345115162802373544521605665119",
+        "eth": "0.96142539984639505796128575360034147852633887208467",
+        "usd": "1618.38000000000000000000000000003288961544570185446"
+      },
+      "last_traded": 1616845942,
+      "expired_at": 1616760000
+    },
+    {
+      "symbol": "ETHUSDM20",
+      "base": "ETH",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHUSDM20",
+      "contract_type": "futures",
+      "last": 230.07,
+      "h24_percentage_change": 0.0,
+      "index": 230.07,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001217249619813215,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 73679.97877745179,
+      "converted_volume": {
+        "btc": "1574.9574949164400955790236759023856817993307591659741",
+        "eth": "47610.26651130249991440491134159940909339519248973559034841050308816",
+        "usd": "16951552.71732833332530000000000002759402793853930165768147786759197"
+      },
+      "converted_last": {
+        "btc": "0.02137565076767398252800797284540261479",
+        "eth": "0.646176441704847803498805806292240914201945481473904",
+        "usd": "230.070000000000000000000000000000374511887712213543"
+      },
+      "last_traded": 1593258962,
+      "expired_at": 1593172800
+    },
+    {
+      "symbol": "ETHUSDM21",
+      "base": "ETH",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHUSDM21",
+      "contract_type": "futures",
+      "last": 1858.41,
+      "h24_percentage_change": -0.032,
+      "index": 1858.41,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00532840656545362,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 10254.00003221192,
+      "converted_volume": {
+        "btc": "604.0052543105468482170672939939312991878442937794464",
+        "eth": "10618.45287775118595575865271881236237071491918150160237259033514816",
+        "usd": "19056136.19986295424719999999999990233678902691957344430671116686944"
+      },
+      "converted_last": {
+        "btc": "0.05890435463361853804440390442662729492",
+        "eth": "1.035542504817083443923458766318063435418252900807848",
+        "usd": "1858.409999999999999999999999999990475598725738133932"
+      },
+      "last_traded": 1624707280,
+      "expired_at": 1624622400
+    },
+    {
+      "symbol": "ETHUSDU20",
+      "base": "ETH",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHUSDU20",
+      "contract_type": "futures",
+      "last": 343.58,
+      "h24_percentage_change": 0.0,
+      "index": 343.58,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001581226387678133,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 23266.45051557351,
+      "converted_volume": {
+        "btc": "742.7067337975480106402013675167794589306585303170026",
+        "eth": "22451.69514096399289072078112712212724134464495438540895931564962976",
+        "usd": "7993887.06814074656580000000000001301258632610789415868618767720042"
+      },
+      "converted_last": {
+        "btc": "0.03192178941521027042627452214640513926",
+        "eth": "0.964981535362940010979787451323024007047874249249376",
+        "usd": "343.580000000000000000000000000000559285410441006342"
+      },
+      "last_traded": 1601121493,
+      "expired_at": 1601035200
+    },
+    {
+      "symbol": "ETHUSDU21",
+      "base": "ETH",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHUSDU21",
+      "contract_type": "futures",
+      "last": 2811.54,
+      "h24_percentage_change": 0.0,
+      "index": 2811.54,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00103134946743251,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 11294.565438609072,
+      "converted_volume": {
+        "btc": "746.56493551480906679311470302958538944096409037076768",
+        "eth": "10890.92319677390021192271851543916940449469452273448599156662562672",
+        "usd": "31755122.513266950290880000000000010813058782402122895029668917977888"
+      },
+      "converted_last": {
+        "btc": "0.06609948293918147313853134938312567094",
+        "eth": "0.96426226010826668766909102815250613573857017531301",
+        "usd": "2811.540000000000000000000000000000957368288419404054"
+      },
+      "last_traded": 1632571171,
+      "expired_at": 1632484800
+    },
+    {
+      "symbol": "ETHUSDZ20",
+      "base": "ETH",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHUSDZ20",
+      "contract_type": "futures",
+      "last": 630.58,
+      "h24_percentage_change": 0.0,
+      "index": 630.58,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00790576330144675,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 14111.718698226772,
+      "converted_volume": {
+        "btc": "357.90455085382657703290297458340840060240696",
+        "eth": "14281.663733197062574266910801074554131720496558041560126728",
+        "usd": "8898567.5767278378877600545562403790949524727331455862256"
+      },
+      "converted_last": {
+        "btc": "0.02536222259722336870876912918",
+        "eth": "1.012042830402482814395658595226939935474874",
+        "usd": "630.5800000000000000000038660238023275148"
+      },
+      "last_traded": 1608983970,
+      "expired_at": 1608897600
+    },
+    {
+      "symbol": "ETHH20",
+      "base": "ETH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHH20",
+      "contract_type": "futures",
+      "last": 0.02,
+      "h24_percentage_change": 0.0,
+      "index": 0.02047,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001487329434697836,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 23031.0,
+      "converted_volume": {
+        "btc": "471.44457",
+        "eth": "14251.560245565399353232",
+        "usd": "5074243.277960457552969"
+      },
+      "converted_last": {
+        "btc": "0.02047",
+        "eth": "0.618799020692345072",
+        "usd": "220.322316788695999"
+      },
+      "last_traded": 1585396768,
+      "expired_at": 1585310400
+    },
+    {
+      "symbol": "ETHH21",
+      "base": "ETH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHH21",
+      "contract_type": "futures",
+      "last": 0.031,
+      "h24_percentage_change": 0.0,
+      "index": 0.03065,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00130718954248361,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 15412.0,
+      "converted_volume": {
+        "btc": "472.3778",
+        "eth": "15319.90387961626600154",
+        "usd": "25788195.36560461875252"
+      },
+      "converted_last": {
+        "btc": "0.03065",
+        "eth": "0.994024388763059045",
+        "usd": "1673.25430609944321"
+      },
+      "last_traded": 1616845942,
+      "expired_at": 1616760000
+    },
+    {
+      "symbol": "ETHH22",
+      "base": "ETH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHH22",
+      "contract_type": "futures",
+      "last": 0.082,
+      "h24_percentage_change": -2.334,
+      "index": 0.0818,
+      "index_basis_percentage": -0.244,
+      "bid_ask_spread": 0.00618106896133798,
+      "funding_rate": 0.0,
+      "open_interest_usd": 47376838819.31158,
+      "h24_volume": 123.16000000000001,
+      "converted_volume": {
+        "btc": "10.09912000000000082",
+        "eth": "123.725314026946664949900781661794",
+        "usd": "489455.098574095075693401313258772"
+      },
+      "converted_last": {
+        "btc": "0.082",
+        "eth": "1.0045900781661794",
+        "usd": "3974.1401313258772"
+      },
+      "last_traded": 1640230089,
+      "expired_at": 1648209600
+    },
+    {
+      "symbol": "ETHM20",
+      "base": "ETH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHM20",
+      "contract_type": "futures",
+      "last": 0.025,
+      "h24_percentage_change": 0.0,
+      "index": 0.0251,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001398089171974506,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 39759.0,
+      "converted_volume": {
+        "btc": "997.9509",
+        "eth": "30167.61307371980399184",
+        "usd": "10741126.24960255408053"
+      },
+      "converted_last": {
+        "btc": "0.0251",
+        "eth": "0.75876186709222576",
+        "usd": "270.15584520743867"
+      },
+      "last_traded": 1593258962,
+      "expired_at": 1593172800
+    },
+    {
+      "symbol": "ETHM21",
+      "base": "ETH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHM21",
+      "contract_type": "futures",
+      "last": 0.056,
+      "h24_percentage_change": 0.0,
+      "index": 0.05566,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00126057986673871,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 5006.0,
+      "converted_volume": {
+        "btc": "278.63396",
+        "eth": "4871.826814770088020672",
+        "usd": "8867074.014620441626776"
+      },
+      "converted_last": {
+        "btc": "0.05566",
+        "eth": "0.973197525922910112",
+        "usd": "1771.289255817107796"
+      },
+      "last_traded": 1624708278,
+      "expired_at": 1624622400
+    },
+    {
+      "symbol": "ETHU20",
+      "base": "ETH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHU20",
+      "contract_type": "futures",
+      "last": 0.032,
+      "h24_percentage_change": 0.0,
+      "index": 0.03232,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001618811881188094,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 31640.0,
+      "converted_volume": {
+        "btc": "1022.6048",
+        "eth": "30912.88953567617947648",
+        "usd": "11006480.63972843743616"
+      },
+      "converted_last": {
+        "btc": "0.03232",
+        "eth": "0.977019264717957632",
+        "usd": "347.866012633642144"
+      },
+      "last_traded": 1601121493,
+      "expired_at": 1601035200
+    },
+    {
+      "symbol": "ETHU21",
+      "base": "ETH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHU21",
+      "contract_type": "futures",
+      "last": 0.068,
+      "h24_percentage_change": -0.044,
+      "index": 0.06786,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00323910482921081,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 2928.0,
+      "converted_volume": {
+        "btc": "198.69408",
+        "eth": "2901.253036096933420032",
+        "usd": "8427711.029826024608256"
+      },
+      "converted_last": {
+        "btc": "0.06786",
+        "eth": "0.990865107956602944",
+        "usd": "2878.316608547139552"
+      },
+      "last_traded": 1632570946,
+      "expired_at": 1632484800
+    },
+    {
+      "symbol": "ETHZ19",
+      "base": "ETH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHZ19",
+      "contract_type": "futures",
+      "last": 0.017,
+      "h24_percentage_change": 0.0,
+      "index": 0.01736,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001577034045008832,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 0.0,
+      "converted_volume": {
+        "btc": "0.0",
+        "eth": "0.0",
+        "usd": "0.0"
+      },
+      "converted_last": {
+        "btc": "0.01736",
+        "eth": "0.524785100108407936",
+        "usd": "186.848823617575112"
+      },
+      "last_traded": 1577534612,
+      "expired_at": 1577448000
+    },
+    {
+      "symbol": "ETHZ20",
+      "base": "ETH",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/ETHZ20",
+      "contract_type": "futures",
+      "last": 0.026,
+      "h24_percentage_change": 0.0,
+      "index": 0.02571,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00619195046439617,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 11307.0,
+      "converted_volume": {
+        "btc": "290.70297",
+        "eth": "11607.719553633737500749",
+        "usd": "7220053.296396963193815"
+      },
+      "converted_last": {
+        "btc": "0.02571",
+        "eth": "1.026595874558568807",
+        "usd": "638.547209374455045"
+      },
+      "last_traded": 1608982679,
+      "expired_at": 1608897600
+    },
+    {
+      "symbol": "FILUSDT",
+      "base": "FIL",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/FILUSDT",
+      "contract_type": "perpetual",
+      "last": 65.26,
+      "h24_percentage_change": 0.23,
+      "index": 65.26,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00214526509347227,
+      "funding_rate": 0.016,
+      "open_interest_usd": 0.0,
+      "h24_volume": 12043.943010570682,
+      "converted_volume": {
+        "btc": "13.58144781307355224550112672795631995159512",
+        "eth": "210.66887467887105666174435619024117029239806078347077336",
+        "usd": "787142.54633387696173913259996266283332862588992809740264"
+      },
+      "converted_last": {
+        "btc": "0.00112765792740412661286532316",
+        "eth": "0.01749168644305041975277924007254876640348",
+        "usd": "65.35588433480801857058734872814404856452"
+      },
+      "last_traded": 1634212057,
+      "expired_at": 1634126400
+    },
+    {
+      "symbol": "LINKUSDTH21",
+      "base": "LINK",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/LINKUSDTH21",
+      "contract_type": "futures",
+      "last": 26.017,
+      "h24_percentage_change": 0.0,
+      "index": 26.0165,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00738346181066973,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 125966.33220515534,
+      "converted_volume": {
+        "btc": "60.00862594466847889500849734722990217108403",
+        "eth": "1946.167625616970029416074720313463825565218817730324520279",
+        "usd": "3276009.519250482885649925155627370601409792103269551227502"
+      },
+      "converted_last": {
+        "btc": "0.0004763862287181252540641077545",
+        "eth": "0.01544990309352930834959946016278816241193685",
+        "usd": "26.0070247493989336833160476577917226066353"
+      },
+      "last_traded": 1616845942,
+      "expired_at": 1616760000
+    },
+    {
+      "symbol": "LINKUSDTM21",
+      "base": "LINK",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/LINKUSDTM21",
+      "contract_type": "futures",
+      "last": 17.876,
+      "h24_percentage_change": 0.0,
+      "index": 17.8756,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0210785126250069,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 158887.40839440373,
+      "converted_volume": {
+        "btc": "90.260600713292707889692470744755539453106732",
+        "eth": "1578.1781046081947364766248377145231682788786107173096079424",
+        "usd": "2872397.2739319681938437051945958634660987820366705667829192"
+      },
+      "converted_last": {
+        "btc": "0.0005680790040280613663629029884",
+        "eth": "0.00993268202028135482437804539882938447124288",
+        "usd": "18.07819324991355730604514623036021988884904"
+      },
+      "last_traded": 1624708278,
+      "expired_at": 1624622400
+    },
+    {
+      "symbol": "LTCUSD",
+      "base": "LTC",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/LTCUSD",
+      "contract_type": "perpetual",
+      "last": 156.42,
+      "h24_percentage_change": -0.369,
+      "index": 156.23,
+      "index_basis_percentage": -0.121,
+      "bid_ask_spread": 0.000255672738894165,
+      "funding_rate": 0.042,
+      "open_interest_usd": 6960366.689808143,
+      "h24_volume": 51767.018402429996,
+      "converted_volume": {
+        "btc": "167.0767848078222894138969490273929020940083608670076",
+        "eth": "2046.87415012005034860656504474168788173742632451561421359092198492",
+        "usd": "8097397.01850809997432000000000016987017002541226066388363323913496"
+      },
+      "converted_last": {
+        "btc": "0.0032274755232953408188212625361289981",
+        "eth": "0.03954012058813045361209928974750651383947862227877",
+        "usd": "156.42000000000000000000000000000328143623619316626"
+      },
+      "last_traded": 1640230088,
+      "expired_at": null
+    },
+    {
+      "symbol": "LTCH20",
+      "base": "LTC",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/LTCH20",
+      "contract_type": "futures",
+      "last": 0.006,
+      "h24_percentage_change": 0.0,
+      "index": 0.006007,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001834028356964247,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 56645.0,
+      "converted_volume": {
+        "btc": "340.266515",
+        "eth": "10286.105825910949918264",
+        "usd": "3662350.1177535700524755"
+      },
+      "converted_last": {
+        "btc": "0.006007",
+        "eth": "0.1815889456423506032",
+        "usd": "64.6544287713579319"
+      },
+      "last_traded": 1585396768,
+      "expired_at": 1585310400
+    },
+    {
+      "symbol": "LTCH21",
+      "base": "LTC",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/LTCH21",
+      "contract_type": "futures",
+      "last": 0.003,
+      "h24_percentage_change": 0.0,
+      "index": 0.003375,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00443786982248528,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 22906.0,
+      "converted_volume": {
+        "btc": "77.30775",
+        "eth": "2507.203554335966652075",
+        "usd": "4220408.66500356381135"
+      },
+      "converted_last": {
+        "btc": "0.003375",
+        "eth": "0.1094561928898963875",
+        "usd": "184.249046756463975"
+      },
+      "last_traded": 1616845942,
+      "expired_at": 1616760000
+    },
+    {
+      "symbol": "LTCM20",
+      "base": "LTC",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/LTCM20",
+      "contract_type": "futures",
+      "last": 0.005,
+      "h24_percentage_change": 0.0,
+      "index": 0.004639,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00108342361863484,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 215586.0,
+      "converted_volume": {
+        "btc": "1000.103454",
+        "eth": "30232.6838263913912001504",
+        "usd": "10764294.5780975601737118"
+      },
+      "converted_last": {
+        "btc": "0.004639",
+        "eth": "0.1402349124080014064",
+        "usd": "49.9303970484983263"
+      },
+      "last_traded": 1593258928,
+      "expired_at": 1593172800
+    },
+    {
+      "symbol": "LTCM21",
+      "base": "LTC",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/LTCM21",
+      "contract_type": "futures",
+      "last": 0.004,
+      "h24_percentage_change": 0.0,
+      "index": 0.00389,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00259067357512954,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 26391.0,
+      "converted_volume": {
+        "btc": "102.66099",
+        "eth": "1794.994995989878113168",
+        "usd": "3267019.557645482308194"
+      },
+      "converted_last": {
+        "btc": "0.00389",
+        "eth": "0.068015421772190448",
+        "usd": "123.792942959549934"
+      },
+      "last_traded": 1624708278,
+      "expired_at": 1624622400
+    },
+    {
+      "symbol": "LTCU20",
+      "base": "LTC",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/LTCU20",
+      "contract_type": "futures",
+      "last": 0.004,
+      "h24_percentage_change": 0.0,
+      "index": 0.004324,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0011547344110854,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 215117.0,
+      "converted_volume": {
+        "btc": "930.165908",
+        "eth": "28118.5028310603782387008",
+        "usd": "10011544.1059316589177236"
+      },
+      "converted_last": {
+        "btc": "0.004324",
+        "eth": "0.1307126021237762624",
+        "usd": "46.5399950070503908"
+      },
+      "last_traded": 1601121493,
+      "expired_at": 1601035200
+    },
+    {
+      "symbol": "LTCU21",
+      "base": "LTC",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/LTCU21",
+      "contract_type": "futures",
+      "last": 0.004,
+      "h24_percentage_change": 0.0,
+      "index": 0.003536,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00282485875706215,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 24610.0,
+      "converted_volume": {
+        "btc": "87.02096",
+        "eth": "1269.46571796330246584",
+        "usd": "3701434.549851408014736"
+      },
+      "converted_last": {
+        "btc": "0.003536",
+        "eth": "0.051583328645400344",
+        "usd": "150.4036793925805776"
+      },
+      "last_traded": 1632571171,
+      "expired_at": 1632484800
+    },
+    {
+      "symbol": "LTCZ19",
+      "base": "LTC",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/LTCZ19",
+      "contract_type": "futures",
+      "last": 0.006,
+      "h24_percentage_change": 0.0,
+      "index": 0.0056,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001891265597148068,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 0.0,
+      "converted_volume": {
+        "btc": "0.0",
+        "eth": "0.0",
+        "usd": "0.0"
+      },
+      "converted_last": {
+        "btc": "0.0056",
+        "eth": "0.16928551616400256",
+        "usd": "60.27381407018552"
+      },
+      "last_traded": 1577534612,
+      "expired_at": 1577448000
+    },
+    {
+      "symbol": "LTCZ20",
+      "base": "LTC",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/LTCZ20",
+      "contract_type": "futures",
+      "last": 0.005,
+      "h24_percentage_change": 0.0,
+      "index": 0.004958,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00304259634888443,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 212383.0,
+      "converted_volume": {
+        "btc": "1052.994914",
+        "eth": "42018.2398872505809567502",
+        "usd": "26180573.50158316959204"
+      },
+      "converted_last": {
+        "btc": "0.004958",
+        "eth": "0.1978418229672364594",
+        "usd": "123.27057015666588"
+      },
+      "last_traded": 1608983970,
+      "expired_at": 1608897600
+    },
+    {
+      "symbol": "LUNAUSD",
+      "base": "LUNA",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/LUNAUSD",
+      "contract_type": "perpetual",
+      "last": 87.003,
+      "h24_percentage_change": -5.888,
+      "index": 87.064,
+      "index_basis_percentage": 0.07,
+      "bid_ask_spread": 0.00102301202326489,
+      "funding_rate": -0.086,
+      "open_interest_usd": 0.0,
+      "h24_volume": 97405.7725428402,
+      "converted_volume": {
+        "btc": "174.859647666431204943003773749054635144672970530483",
+        "eth": "2142.2227697235452864481107854092993861658806168935400705688700811",
+        "usd": "8474594.4285447259206000000000001777831558935390748838007979184718"
+      },
+      "converted_last": {
+        "btc": "0.001795167196990567301239651607408459415",
+        "eth": "0.0219927701798306729038068949360843192914982647623055",
+        "usd": "87.003000000000000000000000000001825180903065554559"
+      },
+      "last_traded": 1640230089,
+      "expired_at": null
+    },
+    {
+      "symbol": "MATICUSDT",
+      "base": "MATIC",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/MATICUSDT",
+      "contract_type": "perpetual",
+      "last": 1.91,
+      "h24_percentage_change": -0.49,
+      "index": 1.9095,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0100285788516498,
+      "funding_rate": 0.113,
+      "open_interest_usd": 0.0,
+      "h24_volume": 1701874.3702648832,
+      "converted_volume": {
+        "btc": "51.5470088428856496931729702886325385414656",
+        "eth": "712.40591491439969183270924102411863503709596319570089984",
+        "usd": "3247603.02361888550167477898248053408082628467512056426496"
+      },
+      "converted_last": {
+        "btc": "0.000030288374831605677242191383",
+        "eth": "0.0004186007659328692877782511284282955537637",
+        "usd": "1.9082507383394121739438809456466062624378"
+      },
+      "last_traded": 1635939140,
+      "expired_at": 1635854400
+    },
+    {
+      "symbol": "SOLUSDT",
+      "base": "SOL",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/SOLUSDT",
+      "contract_type": "perpetual",
+      "last": 179.71,
+      "h24_percentage_change": -0.144,
+      "index": 179.416,
+      "index_basis_percentage": -0.164,
+      "bid_ask_spread": 0.000779640251712348,
+      "funding_rate": 0.01,
+      "open_interest_usd": 0.0,
+      "h24_volume": 1594.5,
+      "converted_volume": {
+        "btc": "5.933179579420897763552516291385",
+        "eth": "72.6879675300538914843617687325271573636900545",
+        "usd": "287552.281377314384031964193954843586992999121"
+      },
+      "converted_last": {
+        "btc": "0.00372102827182245077676545393",
+        "eth": "0.045586683932300966750932435705567361156281",
+        "usd": "180.340094937168005037293316998961170895578"
+      },
+      "last_traded": 1640230088,
+      "expired_at": null
+    },
+    {
+      "symbol": "SRMUSDT",
+      "base": "SRM",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/SRMUSDT",
+      "contract_type": "perpetual",
+      "last": 7.583,
+      "h24_percentage_change": 0.251,
+      "index": 7.583,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00682593856655297,
+      "funding_rate": 0.367,
+      "open_interest_usd": 0.0,
+      "h24_volume": 589913.6934210861,
+      "converted_volume": {
+        "btc": "70.9554635931529063484062807982554409811582",
+        "eth": "980.64064421910866124690934836771285666910908214910541498",
+        "usd": "4470388.93779007395017718963021051334912381187451350521812"
+      },
+      "converted_last": {
+        "btc": "0.000120281092614855119417406262",
+        "eth": "0.0016623459586640208479824447797181278786018",
+        "usd": "7.5780389362805773841405861276974157046692"
+      },
+      "last_traded": 1635939139,
+      "expired_at": 1635854400
+    },
+    {
+      "symbol": "SUSHIUSDT",
+      "base": "SUSHI",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/SUSHIUSDT",
+      "contract_type": "perpetual",
+      "last": 12.475,
+      "h24_percentage_change": -0.391,
+      "index": 12.475,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00406342124133536,
+      "funding_rate": 0.079,
+      "open_interest_usd": 0.0,
+      "h24_volume": 326341.6190933704,
+      "converted_volume": {
+        "btc": "64.57573034622008759280423848467201191836",
+        "eth": "892.469481571360399221661333188416083767829478569202004",
+        "usd": "4068448.234581249466758428708070117062875874831868246376"
+      },
+      "converted_last": {
+        "btc": "0.00019787770412373963005830715",
+        "eth": "0.002734770649391225119158776028878233586385",
+        "usd": "12.46683841884481113901540444982530145269"
+      },
+      "last_traded": 1635939140,
+      "expired_at": 1635854400
+    },
+    {
+      "symbol": "TRXUSDT",
+      "base": "TRX",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/TRXUSDT",
+      "contract_type": "perpetual",
+      "last": 0.103,
+      "h24_percentage_change": 0.342,
+      "index": 0.10275,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00842778262133097,
+      "funding_rate": 0.01,
+      "open_interest_usd": 0.0,
+      "h24_volume": 9262446.726306649,
+      "converted_volume": {
+        "btc": "15.0960686518732108286606012325424917779115",
+        "eth": "208.63535714221423951284456030871197615712794072662333985",
+        "usd": "951093.7549841580433119307312552354952467661613042392709"
+      },
+      "converted_last": {
+        "btc": "0.0000016298143566103604800393635",
+        "eth": "0.00002252486446692972993936386669076060128265",
+        "usd": "0.1026827773576195867361789825426492764941"
+      },
+      "last_traded": 1635939140,
+      "expired_at": 1635854400
+    },
+    {
+      "symbol": "TRXH20",
+      "base": "TRX",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/TRXH20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 1.76e-06,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00568181818181825,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 61064447.0,
+      "converted_volume": {
+        "btc": "107.47342672",
+        "eth": "3248.874020751661541795072",
+        "usd": "1156755.953501247932236624"
+      },
+      "converted_last": {
+        "btc": "0.00000176",
+        "eth": "0.000053204019365829376",
+        "usd": "0.018943198707772592"
+      },
+      "last_traded": 1585396762,
+      "expired_at": 1585310400
+    },
+    {
+      "symbol": "TRXH21",
+      "base": "TRX",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/TRXH21",
+      "contract_type": "",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": null,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 1401539997.0,
+      "converted_volume": {
+        "btc": "1709.87879634",
+        "eth": "55486.453672307431452154476",
+        "usd": "93417795.698812622663383758"
+      },
+      "converted_last": {
+        "btc": "0.00000122",
+        "eth": "0.000039589632683388508",
+        "usd": "0.066653678024725414"
+      },
+      "last_traded": 1616845477,
+      "expired_at": null
+    },
+    {
+      "symbol": "TRXM20",
+      "base": "TRX",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/TRXM20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 1.71e-06,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00581395348837216,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 130791062.0,
+      "converted_volume": {
+        "btc": "223.65271602",
+        "eth": "6760.922405879782910398752",
+        "usd": "2407214.682443121866656434"
+      },
+      "converted_last": {
+        "btc": "0.00000171",
+        "eth": "0.000051692541542936496",
+        "usd": "0.018405039653574507"
+      },
+      "last_traded": 1593258954,
+      "expired_at": 1593172800
+    },
+    {
+      "symbol": "TRXM21",
+      "base": "TRX",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/TRXM21",
+      "contract_type": "",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": null,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 428624922.0,
+      "converted_volume": {
+        "btc": "792.9561057",
+        "eth": "13864.58714036481496267824",
+        "usd": "25234542.40677299441885142"
+      },
+      "converted_last": {
+        "btc": "0.00000185",
+        "eth": "0.00003234666588137592",
+        "usd": "0.05887325050775511"
+      },
+      "last_traded": 1624708278,
+      "expired_at": null
+    },
+    {
+      "symbol": "TRXU20",
+      "base": "TRX",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/TRXU20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 3.21e-06,
+      "index_basis_percentage": 1.262,
+      "bid_ask_spread": 0.00315457413249222,
+      "funding_rate": 0.0,
+      "open_interest_usd": 4729187.5792469885,
+      "h24_volume": 60603831.0,
+      "converted_volume": {
+        "btc": "148.47938595",
+        "eth": "4488.46598040355350054072",
+        "usd": "1598110.518215288609318115"
+      },
+      "converted_last": {
+        "btc": "0.00000245",
+        "eth": "0.00007406241332175112",
+        "usd": "0.026369793655706165"
+      },
+      "last_traded": 1601121552,
+      "expired_at": 1601035200
+    },
+    {
+      "symbol": "TRXU21",
+      "base": "TRX",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/TRXU21",
+      "contract_type": "",
+      "last": 0.0,
+      "h24_percentage_change": 0.783,
+      "index": null,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 457155700.0,
+      "converted_volume": {
+        "btc": "999.7995159",
+        "eth": "14598.68044882423904538336",
+        "usd": "42407007.83719952735660688"
+      },
+      "converted_last": {
+        "btc": "0.000002187",
+        "eth": "0.0000319337163439594848",
+        "usd": "0.0927627235911080784"
+      },
+      "last_traded": 1632570946,
+      "expired_at": null
+    },
+    {
+      "symbol": "TRXZ19",
+      "base": "TRX",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/TRXZ19",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 1.83e-06,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0054347826086956,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 0.0,
+      "converted_volume": {
+        "btc": "0.0",
+        "eth": "0.0",
+        "usd": "0.0"
+      },
+      "converted_last": {
+        "btc": "0.00000183",
+        "eth": "0.000055320088317879408",
+        "usd": "0.019696621383649911"
+      },
+      "last_traded": 1577534612,
+      "expired_at": 1577448000
+    },
+    {
+      "symbol": "TRXZ20",
+      "base": "TRX",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/TRXZ20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 3.21e-06,
+      "index_basis_percentage": 2.229,
+      "bid_ask_spread": 0.00312499999999997,
+      "funding_rate": 0.0,
+      "open_interest_usd": 5115.787806081368,
+      "h24_volume": 206795675.0,
+      "converted_volume": {
+        "btc": "248.15481",
+        "eth": "9902.258973071440057983",
+        "usd": "6169863.8394149035266"
+      },
+      "converted_last": {
+        "btc": "0.0000012",
+        "eth": "0.00004788426534100116",
+        "usd": "0.029835555503832"
+      },
+      "last_traded": 1608983970,
+      "expired_at": 1608897600
+    },
+    {
+      "symbol": "UNIUSDT",
+      "base": "UNI",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/UNIUSDT",
+      "contract_type": "perpetual",
+      "last": 25.635,
+      "h24_percentage_change": -0.501,
+      "index": 25.635,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00591761748211173,
+      "funding_rate": 0.214,
+      "open_interest_usd": 0.0,
+      "h24_volume": 162485.21601697747,
+      "converted_volume": {
+        "btc": "66.0698745843214784383074671953679483974233",
+        "eth": "913.11931590419405220785614323664709029529245497074183787",
+        "usd": "4162583.42213734611109758142223990674474135407030667037478"
+      },
+      "converted_last": {
+        "btc": "0.00040662083729154832998354339",
+        "eth": "0.005619707061895315104579977835694871181321",
+        "usd": "25.618228686740419522938668783268264748674"
+      },
+      "last_traded": 1635937523,
+      "expired_at": 1635854400
+    },
+    {
+      "symbol": "VETUSDT",
+      "base": "VET",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/VETUSDT",
+      "contract_type": "perpetual",
+      "last": 0.137,
+      "h24_percentage_change": 0.867,
+      "index": 0.13729,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0169001877798643,
+      "funding_rate": 0.182,
+      "open_interest_usd": 0.0,
+      "h24_volume": 9484578.160459219,
+      "converted_volume": {
+        "btc": "20.65443090847273747283380784765007590626814",
+        "eth": "285.454754382272973740714600112074862728873818438108460346",
+        "usd": "1301285.831617002343675112256969222579978216306457528589524"
+      },
+      "converted_last": {
+        "btc": "0.00000217768577147480671829298506",
+        "eth": "0.000030096726449292288305355379639654724575134",
+        "usd": "0.137200180082020370442919829812947145205596"
+      },
+      "last_traded": 1635939141,
+      "expired_at": 1635854400
+    },
+    {
+      "symbol": "XBTEUR",
+      "base": "XBT",
+      "target": "EUR",
+      "trade_url": "https://www.bitmex.com/app/trade/XBTEUR",
+      "contract_type": "perpetual",
+      "last": 42536.5,
+      "h24_percentage_change": -2.695,
+      "index": 42591.85,
+      "index_basis_percentage": 0.13,
+      "bid_ask_spread": 0.000352642467556893,
+      "funding_rate": -0.064,
+      "open_interest_usd": 0.0,
+      "h24_volume": 68.76025382,
+      "converted_volume": {
+        "btc": "68.43272800454634916689753251805636518314454991",
+        "eth": "838.376092380635499321311424232528196622716629410702980455047",
+        "usd": "3316600.617792388566636451857092880287539257052430781357682086"
+      },
+      "converted_last": {
+        "btc": "0.9952366985684630383887307837464926505",
+        "eth": "12.19274283913100743294073291471349307800906877761585",
+        "usd": "48234.2695603561482989949186475076960025575579300673"
+      },
+      "last_traded": 1640230088,
+      "expired_at": null
+    },
+    {
+      "symbol": "XBTEURU21",
+      "base": "XBT",
+      "target": "EUR",
+      "trade_url": "https://www.bitmex.com/app/trade/XBTEURU21",
+      "contract_type": "futures",
+      "last": 35382.12,
+      "h24_percentage_change": 0.0,
+      "index": 35382.12,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00183512140033879,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 94.33590761999999,
+      "converted_volume": {
+        "btc": "91.9699640807501073976334421036882351154837416751050756",
+        "eth": "1341.6620143334269602124195023396856791084802991460127694172932206974",
+        "usd": "3911940.32560754831813385627524128382480990696962178622512304143657796"
+      },
+      "converted_last": {
+        "btc": "0.97492001085334039792252703867176949244",
+        "eth": "14.22217741030122398725052522425633658851452879793026",
+        "usd": "41468.200437159781182543740356065868211628815304342204"
+      },
+      "last_traded": 1632571171,
+      "expired_at": 1632484800
+    },
+    {
+      "symbol": "XBTH20",
+      "base": "XBT",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/XBTH20",
+      "contract_type": "futures",
+      "last": 6673.51,
+      "h24_percentage_change": 0.0,
+      "index": 6673.51,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0010749063670411985,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 3269.6583059100003,
+      "converted_volume": {
+        "btc": "2027.290745260036854880853866672895998097467092744553341",
+        "eth": "61284.1000403304937936564955777008806022354216767895180797452017822416",
+        "usd": "21820097.4010734461020530000000000355191283858842135171742280852510397"
+      },
+      "converted_last": {
+        "btc": "0.62003137807875863493930754493642284447",
+        "eth": "18.743273549275085257214393603465609003067871474207472",
+        "usd": "6673.510000000000000000000000000010863253913010536799"
+      },
+      "last_traded": 1585396768,
+      "expired_at": 1585310400
+    },
+    {
+      "symbol": "XBTH21",
+      "base": "XBT",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/XBTH21",
+      "contract_type": "futures",
+      "last": 52803.44,
+      "h24_percentage_change": 0.0,
+      "index": 52803.44,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.000179652042360061,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 801.34583381,
+      "converted_volume": {
+        "btc": "775.087490134124061301067629110294616047704979132",
+        "eth": "25137.2224671603989547817246949718013952962652553423330190606476",
+        "usd": "42313816.6548363064000000000000008599248370700951308462854769688"
+      },
+      "converted_last": {
+        "btc": "0.9672321954292435722984290298899789772",
+        "eth": "31.36875666732481287420462104888247212698922567739996",
+        "usd": "52803.44000000000000000000000000107310077720324715448"
+      },
+      "last_traded": 1616845942,
+      "expired_at": 1616760000
+    },
+    {
+      "symbol": "XBTH22",
+      "base": "XBT",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/XBTH22",
+      "contract_type": "futures",
+      "last": 49118.0,
+      "h24_percentage_change": -2.435,
+      "index": 48290.71,
+      "index_basis_percentage": -1.684,
+      "bid_ask_spread": 0.000742156523860841,
+      "funding_rate": 0.0,
+      "open_interest_usd": 108399200.0,
+      "h24_volume": 180.66655732,
+      "converted_volume": {
+        "btc": "183.1003268316106838792871541165461811121894668",
+        "eth": "2243.18014200025331995862669779254586430355753235250473998956",
+        "usd": "8873979.96244376000000000000000018616161237702996226024524728"
+      },
+      "converted_last": {
+        "btc": "1.01347105711047532501510531421547199",
+        "eth": "12.416133761972839921487616122094520820659193000183",
+        "usd": "49118.000000000000000000000000001030415452303643654"
+      },
+      "last_traded": 1640230088,
+      "expired_at": 1648209600
+    },
+    {
+      "symbol": "XBTM20",
+      "base": "XBT",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/XBTM20",
+      "contract_type": "futures",
+      "last": 9165.19,
+      "h24_percentage_change": 0.0,
+      "index": 9165.19,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0010545791944110905,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 3914.94566227,
+      "converted_volume": {
+        "btc": "3333.7003767266601183599143357619312471957381688061",
+        "eth": "100776.28375183972234809211637610441728280542214130886128955581136",
+        "usd": "35881220.83438038130000000000000005840806601513714301761194712637"
+      },
+      "converted_last": {
+        "btc": "0.85153171060711047909711562847374968943",
+        "eth": "25.741425921453705568519233223677939342089488883165168",
+        "usd": "9165.190000000000000000000000000014919253306129014831"
+      },
+      "last_traded": 1593258962,
+      "expired_at": 1593172800
+    },
+    {
+      "symbol": "XBTM21",
+      "base": "XBT",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/XBTM21",
+      "contract_type": "futures",
+      "last": 33402.88,
+      "h24_percentage_change": 0.0,
+      "index": 33402.88,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00173064585913139,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 499.85734951000006,
+      "converted_volume": {
+        "btc": "524.666951455521265397388793396149387521238847982071808",
+        "eth": "9173.6359879631490837247684021227945434193428565569794374372990713856",
+        "usd": "16696675.0628005908041728000000001040175750707266160906290519723778048"
+      },
+      "converted_last": {
+        "btc": "1.0496333643385288841811890659069011968",
+        "eth": "18.35250796443400679243178851801211559925640469118976",
+        "usd": "33402.88000000000000000000000000020809451971185963008"
+      },
+      "last_traded": 1624708278,
+      "expired_at": 1624622400
+    },
+    {
+      "symbol": "XBTU20",
+      "base": "XBT",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/XBTU20",
+      "contract_type": "futures",
+      "last": 10629.23,
+      "h24_percentage_change": 0.0,
+      "index": 10629.23,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0010470322641331954,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 3901.81838096,
+      "converted_volume": {
+        "btc": "3853.2590565860854582521717863769730932464542448176",
+        "eth": "116482.31219782018300778897044814231413106050613354909802759877376",
+        "usd": "41473324.98945146080000000000000006751098896640842095815270188592"
+      },
+      "converted_last": {
+        "btc": "0.98755469382919687619497624726187175731",
+        "eth": "29.853340372331983389331993047401555580748228669739056",
+        "usd": "10629.230000000000000000000000000017302442701035735027"
+      },
+      "last_traded": 1601121494,
+      "expired_at": 1601035200
+    },
+    {
+      "symbol": "XBTU21",
+      "base": "XBT",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/XBTU21",
+      "contract_type": "futures",
+      "last": 41429.69,
+      "h24_percentage_change": 0.0,
+      "index": 41429.69,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00118214716525935,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 488.16474066,
+      "converted_volume": {
+        "btc": "475.4795982981021335090818319890457194437424515894",
+        "eth": "6936.3179816724944674422202014217135868051063316117105278286501",
+        "usd": "20224513.87447419540000000000000000688672692976797429857273944854"
+      },
+      "converted_last": {
+        "btc": "0.97401462804391091212384702341940281059",
+        "eth": "14.208969644744465775858520198232855277444704114635985",
+        "usd": "41429.690000000000000000000000000014107382930723553619"
+      },
+      "last_traded": 1632571171,
+      "expired_at": 1632484800
+    },
+    {
+      "symbol": "XBTUSD",
+      "base": "XBT",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/XBTUSD",
+      "contract_type": "perpetual",
+      "last": 48253.0,
+      "h24_percentage_change": -2.097,
+      "index": 48290.71,
+      "index_basis_percentage": 0.078,
+      "bid_ask_spread": 0.0001103620500279775,
+      "funding_rate": 0.01,
+      "open_interest_usd": 386023000.0,
+      "h24_volume": 11758.367035689927,
+      "converted_volume": {
+        "btc": "11706.902675189780124308013482193899177511192620956455",
+        "eth": "143422.4179701555602719862135035567302624755815846216225132739160735",
+        "usd": "567376484.573146047531000000000011902632374646556875241938701900943"
+      },
+      "converted_last": {
+        "btc": "0.995623171113477052362756560259765665",
+        "eth": "12.1974775523530160986103249468509897218793118579305",
+        "usd": "48253.000000000000000000000000001012269164461250809"
+      },
+      "last_traded": 1640230089,
+      "expired_at": null
+    },
+    {
+      "symbol": "XBTV21",
+      "base": "XBT",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/XBTV21",
+      "contract_type": "futures",
+      "last": 60837.7,
+      "h24_percentage_change": 0.0,
+      "index": 60837.7,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00401771409322083,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 31.58901096,
+      "converted_volume": {
+        "btc": "31.125140034482804946299916341323123279261727856",
+        "eth": "442.4785613866852603602830210819456597730926786266762349802192",
+        "usd": "1921802.7720811919999999999999999918250646131673935142349958672"
+      },
+      "converted_last": {
+        "btc": "0.9853154337087483458931287901684631686",
+        "eth": "14.00735724037006255039404440669913458325928792000002",
+        "usd": "60837.69999999999999999999999999974120951753810127882"
+      },
+      "last_traded": 1635594941,
+      "expired_at": 1635508800
+    },
+    {
+      "symbol": "XBTX21",
+      "base": "XBT",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/XBTX21",
+      "contract_type": "futures",
+      "last": 54217.81,
+      "h24_percentage_change": 0.0,
+      "index": 54217.81,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00374056816197487,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 44.03344434,
+      "converted_volume": {
+        "btc": "43.6533356668922885265634875117172134118676927424",
+        "eth": "578.03165143444325840951403811295514209212648460522823992229696",
+        "usd": "2387396.91887169539999999999999995676519968527063366675491626176"
+      },
+      "converted_last": {
+        "btc": "0.99136772789853233013212628262268736736",
+        "eth": "13.127105092466251946383943448584543366023828164726944",
+        "usd": "54217.809999999999999999999999999018137214502321933664"
+      },
+      "last_traded": 1638014246,
+      "expired_at": 1637928000
+    },
+    {
+      "symbol": "XBTZ19",
+      "base": "XBT",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/XBTZ19",
+      "contract_type": "futures",
+      "last": 7138.24,
+      "h24_percentage_change": 0.0,
+      "index": 7138.24,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0001699398517275143,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 0.0,
+      "converted_volume": {
+        "btc": "0.0",
+        "eth": "0.0",
+        "usd": "0.0"
+      },
+      "converted_last": {
+        "btc": "0.76718525248450037558318301061757282336",
+        "eth": "41.144169795168521414169790556668864776906703775624832",
+        "usd": "7138.24000000000000000000000000002859357420485062608"
+      },
+      "last_traded": 1577534612,
+      "expired_at": 1577448000
+    },
+    {
+      "symbol": "XBTZ20",
+      "base": "XBT",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/XBTZ20",
+      "contract_type": "futures",
+      "last": 24517.37,
+      "h24_percentage_change": 0.0,
+      "index": 24517.37,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001529337513742416,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 718.81434431,
+      "converted_volume": {
+        "btc": "708.8228903996973786524098504574900481637",
+        "eth": "28284.55280306207755003917161445651708547000941064797491",
+        "usd": "17623437.240755664700000108047555982724699038583261082"
+      },
+      "converted_last": {
+        "btc": "0.98610009108834137346461192027",
+        "eth": "39.348898678716293062227930116494529426581261",
+        "usd": "24517.3700000000000000001503135779607195622"
+      },
+      "last_traded": 1608983969,
+      "expired_at": 1608897600
+    },
+    {
+      "symbol": "XBT7D_D95",
+      "base": "XBT",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/XBT7D_D95",
+      "contract_type": "updown",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 0.0,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.516129032258065,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 19.8,
+      "converted_volume": {
+        "btc": "0.0",
+        "eth": "0.0",
+        "usd": "0.0"
+      },
+      "converted_last": {
+        "btc": "0.0",
+        "eth": "0.0",
+        "usd": "0.0"
+      },
+      "last_traded": 1580558313,
+      "expired_at": 1580472000
+    },
+    {
+      "symbol": "XBT7D_U105",
+      "base": "XBT",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/XBT7D_U105",
+      "contract_type": "updown",
+      "last": 0.006,
+      "h24_percentage_change": 0.0,
+      "index": 0.00601,
+      "index_basis_percentage": -0.661,
+      "bid_ask_spread": 0.0770392749244713,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 0.1,
+      "converted_volume": {
+        "btc": "0.000605",
+        "eth": "0.018288881657003848",
+        "usd": "6.5117245557968285"
+      },
+      "converted_last": {
+        "btc": "0.00605",
+        "eth": "0.18288881657003848",
+        "usd": "65.117245557968285"
+      },
+      "last_traded": 1580324254,
+      "expired_at": 1580472000
+    },
+    {
+      "symbol": "XLMUSDT",
+      "base": "XLM",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/XLMUSDT",
+      "contract_type": "perpetual",
+      "last": 0.371,
+      "h24_percentage_change": -0.366,
+      "index": 0.37064,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00303779773106071,
+      "funding_rate": 0.125,
+      "open_interest_usd": 0.0,
+      "h24_volume": 6328603.481014229,
+      "converted_volume": {
+        "btc": "37.20629982656735140907051856080600895674384",
+        "eth": "514.210012637492829420842680209192865300438989538798038576",
+        "usd": "2344098.998696947419742293431238585716821705704823599778144"
+      },
+      "converted_last": {
+        "btc": "0.00000587906951955293438755999696",
+        "eth": "0.000081251734949127348951102905598671622962544",
+        "usd": "0.370397514353558380806787134692044066567136"
+      },
+      "last_traded": 1635939141,
+      "expired_at": 1635854400
+    },
+    {
+      "symbol": "XRPUSD",
+      "base": "XRP",
+      "target": "USD",
+      "trade_url": "https://www.bitmex.com/app/trade/XRPUSD",
+      "contract_type": "perpetual",
+      "last": 0.984,
+      "h24_percentage_change": 2.607,
+      "index": 0.9837,
+      "index_basis_percentage": -0.041,
+      "bid_ask_spread": 0.000101605364763248,
+      "funding_rate": 0.01,
+      "open_interest_usd": 16691458.16396425,
+      "h24_volume": 28974587.58688022,
+      "converted_volume": {
+        "btc": "588.33836693331173064647019777919933453040168367211",
+        "eth": "7207.791292996316696370854510042357510222841447123874937514646787",
+        "usd": "28513891.644248824502000000000000598174896281317194273317033694206"
+      },
+      "converted_last": {
+        "btc": "0.0000203053232481456648753484494425556005",
+        "eth": "0.00024876251547614869837403727810076179688934223363085",
+        "usd": "0.9841000000000000000000000000000206448114054321373"
+      },
+      "last_traded": 1640230088,
+      "expired_at": null
+    },
+    {
+      "symbol": "XRPH20",
+      "base": "XRP",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/XRPH20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 2.646e-05,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001378501135503467,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 60458294.0,
+      "converted_volume": {
+        "btc": "1599.72645924",
+        "eth": "48359.021316724214724124224",
+        "usd": "17218145.565604995492771108"
+      },
+      "converted_last": {
+        "btc": "0.00002646",
+        "eth": "0.000799874063874912096",
+        "usd": "0.284793771481626582"
+      },
+      "last_traded": 1585396768,
+      "expired_at": 1585310400
+    },
+    {
+      "symbol": "XRPH21",
+      "base": "XRP",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/XRPH21",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 1.07e-05,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00839552238805978,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 272358012.0,
+      "converted_volume": {
+        "btc": "2914.2307284",
+        "eth": "94512.77058767811862063812",
+        "usd": "159094587.77365797548818056"
+      },
+      "converted_last": {
+        "btc": "0.0000107",
+        "eth": "0.00034701667079167151",
+        "usd": "0.58413771860567838"
+      },
+      "last_traded": 1616845942,
+      "expired_at": 1616760000
+    },
+    {
+      "symbol": "XRPH22",
+      "base": "XRP",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/XRPH22",
+      "contract_type": "",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": null,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 36390.0,
+      "converted_volume": {
+        "btc": "0.7383531",
+        "eth": "9.04563656638098628227",
+        "usd": "35784.37421705937244926"
+      },
+      "converted_last": {
+        "btc": "0.00002029",
+        "eth": "0.000248574788853558293",
+        "usd": "0.983357356885390834"
+      },
+      "last_traded": 1640226238,
+      "expired_at": null
+    },
+    {
+      "symbol": "XRPM20",
+      "base": "XRP",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/XRPM20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 1.98e-05,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001505561172902002,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 41575602.0,
+      "converted_volume": {
+        "btc": "823.1969196",
+        "eth": "24884.87775698266353544896",
+        "usd": "8860217.51341426040437932"
+      },
+      "converted_last": {
+        "btc": "0.0000198",
+        "eth": "0.00059854521786558048",
+        "usd": "0.21311098546244166"
+      },
+      "last_traded": 1593258962,
+      "expired_at": 1593172800
+    },
+    {
+      "symbol": "XRPM21",
+      "base": "XRP",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/XRPM21",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 1.922e-05,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0104004160166407,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 102517844.0,
+      "converted_volume": {
+        "btc": "1970.39296168",
+        "eth": "34451.698803501463006613376",
+        "usd": "62704561.314434678378948208"
+      },
+      "converted_last": {
+        "btc": "0.00001922",
+        "eth": "0.000336055631481105504",
+        "usd": "0.611645337707596332"
+      },
+      "last_traded": 1624708278,
+      "expired_at": 1624622400
+    },
+    {
+      "symbol": "XRPU20",
+      "base": "XRP",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/XRPU20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 2.225e-05,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.001448631673396062,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 41461495.0,
+      "converted_volume": {
+        "btc": "922.51826375",
+        "eth": "27887.317937435393196742",
+        "usd": "9929231.126003190455498375"
+      },
+      "converted_last": {
+        "btc": "0.00002225",
+        "eth": "0.0006726076311873316",
+        "usd": "0.239480779118147825"
+      },
+      "last_traded": 1601121493,
+      "expired_at": 1601035200
+    },
+    {
+      "symbol": "XRPU21",
+      "base": "XRP",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/XRPU21",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 2.203e-05,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00362318840579707,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 2980560.0,
+      "converted_volume": {
+        "btc": "65.6617368",
+        "eth": "957.8763995424711307572",
+        "usd": "2792920.47794887153822488"
+      },
+      "converted_last": {
+        "btc": "0.00002203",
+        "eth": "0.000321374640853554745",
+        "usd": "0.937045547799363723"
+      },
+      "last_traded": 1632571172,
+      "expired_at": 1632484800
+    },
+    {
+      "symbol": "XRPZ19",
+      "base": "XRP",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/XRPZ19",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 2.619e-05,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.000382262996941957,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 0.0,
+      "converted_volume": {
+        "btc": "0.0",
+        "eth": "0.0",
+        "usd": "0.0"
+      },
+      "converted_last": {
+        "btc": "0.00002619",
+        "eth": "0.001404570543354173628",
+        "usd": "0.243683653973493195"
+      },
+      "last_traded": 1577534612,
+      "expired_at": 1577448000
+    },
+    {
+      "symbol": "XRPZ20",
+      "base": "XRP",
+      "target": "XBT",
+      "trade_url": "https://www.bitmex.com/app/trade/XRPZ20",
+      "contract_type": "futures",
+      "last": 0.0,
+      "h24_percentage_change": 0.0,
+      "index": 1.526e-05,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.00588235294117641,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 49548319.0,
+      "converted_volume": {
+        "btc": "756.10734794",
+        "eth": "30171.370729199705693386342",
+        "usd": "18799068.9552659033560884"
+      },
+      "converted_last": {
+        "btc": "0.00001526",
+        "eth": "0.000608928240919731418",
+        "usd": "0.3794088141570636"
+      },
+      "last_traded": 1608983970,
+      "expired_at": 1608897600
+    },
+    {
+      "symbol": "XTZUSDTH21",
+      "base": "XTZ",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/XTZUSDTH21",
+      "contract_type": "futures",
+      "last": 4.115,
+      "h24_percentage_change": 0.0,
+      "index": 4.1153,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0227651966626938,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 1254842.4810451774,
+      "converted_volume": {
+        "btc": "94.55860159900569019779414315744588479437206",
+        "eth": "3066.673936598409423819010669297200432631586762681006377758",
+        "usd": "5162172.505849199586234169669863326173211710543110372188604"
+      },
+      "converted_last": {
+        "btc": "0.0000753549573172294835219965269",
+        "eth": "0.00244387162765172727504109539745631137062417",
+        "usd": "4.11380120120698140745106109300291261480546"
+      },
+      "last_traded": 1616845942,
+      "expired_at": 1616760000
+    },
+    {
+      "symbol": "YFIUSDTH21",
+      "base": "YFI",
+      "target": "USDT",
+      "trade_url": "https://www.bitmex.com/app/trade/YFIUSDTH21",
+      "contract_type": "futures",
+      "last": 32305.4,
+      "h24_percentage_change": 0.166,
+      "index": 32305.4,
+      "index_basis_percentage": 0.0,
+      "bid_ask_spread": 0.0207864910751159,
+      "funding_rate": 0.0,
+      "open_interest_usd": 0.0,
+      "h24_volume": 46.89675284529452,
+      "converted_volume": {
+        "btc": "27.802975990235081616031885733979690399571272",
+        "eth": "900.7518425953880260149742325853643548225902648887810509984",
+        "usd": "1515498.8459629838971714190031307696286673644308955951408856"
+      },
+      "converted_last": {
+        "btc": "0.5928550337366214710146799286",
+        "eth": "19.20712603635555917676983874973064996892792",
+        "usd": "32315.64562609252212548623916382310075713378"
+      },
+      "last_traded": 1616844083,
+      "expired_at": 1616760000
+    }
+  ]
+}

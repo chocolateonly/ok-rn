@@ -67,7 +67,7 @@ class ExchangeDetailResponse {
       slack_url: json['slack_url'],
       status_updates: json['status_updates'] != null ? (json['status_updates'] as List).map((i) => StatusUpdate.fromJson(i)).toList() : null,
       telegram_url: json['telegram_url'],
-      tickers: json['tickers'] != null ? (json['tickers'] as List).map((i) => Ticker.fromJson(i)).toList() : null,
+      tickers: json['tickers.json'] != null ? (json['tickers.json'] as List).map((i) => Ticker.fromJson(i)).toList() : null,
       trade_volume_24h_btc: json['trade_volume_24h_btc'],
       trade_volume_24h_btc_normalized: json['trade_volume_24h_btc_normalized'],
       trust_score: json['trust_score'],
@@ -105,7 +105,7 @@ class ExchangeDetailResponse {
       data['status_updates'] = this.status_updates!.map((v) => v.toJson()).toList();
     }
     if (this.tickers != null) {
-      data['tickers'] = this.tickers!.map((v) => v.toJson()).toList();
+      data['tickers.json'] = this.tickers!.map((v) => v.toJson()).toList();
     }
     return data;
   }
