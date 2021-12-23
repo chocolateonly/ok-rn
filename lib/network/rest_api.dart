@@ -20,7 +20,7 @@ import 'package:flutter/services.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 Future<List<CoinListModel>> getCoinList({String currency = 'usd', int page = 1, String sortingOrder = 'market_cap_desc', String interval = '1h'}) async {
-  Iterable iterable = await handleResponse(await buildHttpResponse('coins/markets?vs_currency=$currency&order=$sortingOrder&per_page=${AppConstant.perPage}&page=$page&sparkline=true&price_change_percentage=$interval'));
+  Iterable iterable = jsonDecode(await rootBundle.loadString('assets/markets.json'));
   List<CoinListModel> list = [];
 
   iterable.forEach((element) {
@@ -33,7 +33,9 @@ Future<List<CoinListModel>> getCoinList({String currency = 'usd', int page = 1, 
 }
 
 Future<TrendingModel> get getTrendingList async {
-  TrendingModel td = TrendingModel.fromJson(await handleResponse(await buildHttpResponse('/search/trending/')));
+  var iterable = jsonDecode(await rootBundle.loadString('assets/trending.json'));
+
+  TrendingModel td = TrendingModel.fromJson(iterable);
   await setValue(SharedPreferenceKeys.TRENDING_DATA, jsonEncode(td.toJson()));
 
   return td;
@@ -72,7 +74,8 @@ Stream<DashboardResponse> dashboardStream({bool value = true, String currency = 
 }
 
 Future<SearchModel> get getCoinListForSearch async {
-  return SearchModel.fromJson(await handleResponse(await buildHttpResponse('https://api.coingecko.com/api/v3/search/')));
+  var iterable = jsonDecode(await rootBundle.loadString('assets/search.json'));
+  return SearchModel.fromJson(iterable);
 }
 
 Future<NewsResponse> getCryptoNews({int page = 1}) async {
